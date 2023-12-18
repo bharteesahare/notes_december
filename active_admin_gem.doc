@@ -1,0 +1,58 @@
+Activeadmin with rails api and react frontend:
+https://medium.com/superhighfives/a-top-shelf-web-stack-rails-5-api-activeadmin-create-react-app-de5481b7ec0b
+https://www.ccbaxy.xyz/blog/2019/11/11/ruby13/
+Imp Url For active admin:
+https://github.com/activeadmin/activeadmin/wiki/
+
+rvm use ruby-2.6.5
+rails new rails_first_app
+cd rails_first_app
+
+
+gem 'activeadmin'
+bundle
+
+gem 'devise'
+bundle
+
+if you want the give the user athentication to the admin side, so we need add the devise gem.
+
+Run this command:
+rails generate active_admin:install
+
+rails db:create && rails db:migrate && rails db:seed
+
+rails s
+
+http://localhost:3000/admin # hit this url in the browser.
+
+rails c
+Admin.create(email: "admin@gmail.com", password: "123456", password_confirmation: "123456")
+
+If you want to the create the Resource.
+rails generate active_admin:resource
+       [MyModelName]
+
+If you want add the resource you need to add the 1st model than we do it.
+rails generate model Client name address company phone_number #create the client model/table
+Running via Spring preloader in process 49301
+      invoke  active_record
+      create    db/migrate/20230817101434_create_clients.rb
+      create    app/models/client.rb
+      invoke    test_unit
+      create      test/models/client_test.rb
+      create      test/fixtures/clients.yml
+
+rails db:migrate # here we migrate the db
+Running via Spring preloader in process 49334
+== 20230817101434 CreateClients: migrating ====================================
+-- create_table(:clients)
+   -> 0.0012s
+== 20230817101434 CreateClients: migrated (0.0012s) ===========================
+
+rails generate active_admin:resource Client # here we add the resource for this.
+Running via Spring preloader in process 49373
+      create  app/admin/clients.rb
+
+
+https://stackoverflow.com/questions/35308224/adding-custom-button-in-activeadmin-rails-4

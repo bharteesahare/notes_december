@@ -1,0 +1,63 @@
+delete the record from sql.
+
+delete from delivery_partners where id = 1;
+
+=> #<DeliveryPartner id: 1, partner_name: "Delhivery", status: "Active", is_express: "NO", is_surface: "Yes", created_at: "2022-10-11 12:58:07.396860000 +0000", updated_at: "2023-09-13 10:27:53.174600000 +0000", icon: "https://pbs.twimg.com/profile_images/1438055816150...">
+
+select * from delivery_partners;
+select * from client_delivery_partners;
+-- 149
+select * from client_delivery_partners where delivery_partner_id = 7;
+-- 29
+
+select * from client_delivery_partners where delivery_partner_id = 1;
+
+delete from delivery_partners where id = 1;
+
+select * from delivery_partners where id = 7;
+
+delete FROM "client_delivery_partners" WHERE "client_delivery_partners"."delivery_partner_id" = 7
+
+delete from delivery_partners where id = 7;
+
+in
+
+insert into delivery_partners (id, partner_name, status, is_express, is_surface, created_at, updated_at, icon) VALUES (1, 'Delhivery', '1', 'NO', 'Yes', '2022-10-11 12:58:07.396860000 +0000', '2023-09-13 10:27:53.174600000 +0000', 'https://pbs.twimg.com/profile_images/1438055816150458372/Mxp_c9Qq_400x400.png')
+
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (982, 66, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (367, 45, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (421, 52, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (1206, 94, 1, 0) ON CONFLICT DO NOTHING;
+
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (1213, 112, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (16140, 128, 1, 1) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (18258, 92, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (3564, 122, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (15396, 70, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (15474, 124, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (697, 44, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (17724, 137, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (17958, 141, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (18270, 142, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (22404, 143, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (1, 21, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (23730, 144, 1, 1) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (25644, 156, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (17256, 125, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (15966, 127, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (25632, 46, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (25692, 96, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (26436, 160, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (26874, 161, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (28344, 134, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (29106, 163, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (32448, 166, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (49913, 169, 1, 0) ON CONFLICT DO NOTHING;
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (57425, 171, 1, 0) ON CONFLICT DO NOTHING;
+
+
+
+
+
+
+INSERT INTO public.client_delivery_partners (id, user_id, delivery_partner_id, status) VALUES (1, 21, 1, 0) ON CONFLICT DO NOTHING;

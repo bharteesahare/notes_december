@@ -1,0 +1,94 @@
+create the one model
+
+rails g model non_delivery_report awb_number client_order_id order:references shipment: references status message:text attempt_count:integer
+
+
+rails g controller non_delivery_reports 
+
+
+order = getOrder(orderId)
+deliveryAttempts = order.deliveryAttempts
+maxDeliveryAttempts = 3
+
+if deliveryAttempts < maxDeliveryAttempts:
+    # No need to generate NDR
+    updateDeliveryStatus(order, "Delivery in progress")
+elif deliveryAttempts == maxDeliveryAttempts:
+    # Generate and send the first NDR
+    generateAndSendNDR(order, "Failed to deliver order confirmation email after three attempts")
+    updateDeliveryStatus(order, "Delivery failed")
+else:
+    # Generate additional NDRs if necessary
+    for i in range(deliveryAttempts - maxDeliveryAttempts):
+        generateAndSendNDR(order, f"Additional NDR for order, attempt {i+1}")
+    updateDeliveryStatus(order, "Delivery failed")
+
+
+    require 'mail'
+
+# Function to send an email (NDR in this case)
+def send_email(to, subject, body)
+  Mail.deliver do
+    to to
+    from 'your_email@example.com'
+    subject subject
+    body body
+  end
+end
+
+# Simulated order object with delivery attempts
+order = {
+  id: 123,
+  recipient_email: 'recipient@example.com',
+  delivery_attempts: 0
+}
+
+# Maximum allowed delivery attempts
+max_attempts = 3
+
+# Function to generate and send an NDR
+def generate_and_send_ndr(order, attempt)
+  subject = "NDR for order ##{order[:id]}, Attempt #{attempt}"
+  body = "Failed to deliver order confirmation email after #{attempt} attempts."
+  send_email(order[:recipient_email], subject, body)
+end
+
+# Simulate delivery attempts
+while order[:delivery_attempts] < max_attempts
+  # Simulate delivery attempt (increment for each iteration)
+  order[:delivery_attempts] += 1
+
+  if order[:delivery_attempts] <= max_attempts
+    # Successfully delivered the order confirmation email
+    puts "Order ##{order[:id]} delivered successfully."
+  else
+    # Generate and send an NDR after reaching the maximum attempts
+    generate_and_send_ndr(order, order[:delivery_attempts] - max_attempts)
+    puts "NDR sent for order ##{order[:id]}, Attempt #{order[:delivery_attempts] - max_attempts}."
+  end
+end
+
+
+
+# Define your limit
+max_attempts = 3
+
+# Get the existing attempts for the order id
+existing_attempts = get_existing_attempts(order_id)
+
+# Check if the number of existing attempts is less than the max attempts
+if existing_attempts.try(:count) < max_attempts
+ # Create a new non_delivery_report for the order id
+ create_non_delivery_report(order_id)
+else
+ puts "Limit reached for order id #{order_id}."
+end
+
+
+
+rails g migration add_ndr_attempt_to_orders ndr_attempt
+
+rails g migration add_open_attempt_to_non_delivery_reports open_attempt:boolean
+
+
+NonDeliveryReport.includes(:order).where(status: 'delivery').order("nondelivery_reports.created_at")

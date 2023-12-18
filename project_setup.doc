@@ -1,0 +1,77 @@
+﻿install the sublime:
+https://linuxhint.com/install-sublime-text3-ubuntu-22-04/
+
+install the postgres:
+https://www.digitalocean.com/community/tutorials/how-to-install-postgresql-on-ubuntu-22-04-quickstart
+
+RakeTask Notes:
+https://github.com/ruby/rake/blob/master/doc/rakefile.rdoc#tasks-with-prerequisites
+
+ ALTER USER postgres WITH PASSWORD 'Bhartee@123';
+
+install rvm again
+
+rvm reinstall ruby-2.6.5
+
+rvm install ruby-2.6.5 -C --with-openssl-dir=/usr/bin/openssl
+
+install the rvm:
+rvm install 2.6.5 --with-openssl-dir=$HOME/.rvm/usr
+
+Setup the password:
+psql -U postgres 
+psql: error: connection to server on socket "/var/run/postgresql/.s.PGSQL.5432" failed: FATAL:  Peer authentication failed for user "postgres"
+shreekanth@shreekanth:~/TrueEquations/RadioBackendPOC$ sudo -u postgres psql
+could not change directory to "/home/shreekanth/TrueEquations/RadioBackendPOC": Permission denied
+psql (14.8 (Ubuntu 14.8-0ubuntu0.22.04.1))
+Type "help" for help.
+
+postgres=# \password
+Enter new password for user "postgres": 
+Enter it again: 
+postgres=# exit
+
+Login with credentials:
+ psql -U postgres -h localhost
+Password for user postgres: 
+psql (14.8 (Ubuntu 14.8-0ubuntu0.22.04.1))
+SSL connection (protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: 256, compression: off)
+Type "help" for help.
+
+postgres=# exit
+
+
+create a new user in postgres:
+sudo -u postgres createuser -e bhartee
+
+createuser bhartee
+
+CREATE USER Bhartee;
+
+CREATE ROLE sonu WITH LOGIN PASSWORD 'pass';
+
+GRANT USAGE ON SCHEMA public TO sonu;
+
+GRANT SELECT ON ALL TABLES IN SCHEMA public TO sonu;
+
+ALTER ROLE sonu WITH LOGIN;
+
+ALTER ROLE sonu WITH CREATEDB;
+ALTER ROLE sonu WITH Superuser;
+,
+
+ALTER ROLE sonu WITH PASSWORD 'Bhartee@123';
+
+
+
+psql -U sonu -h localhost
+
+ALTER ROLE sonu WITH PASSWORD 'password';
+ALTER ROLE "sonu" WITH LOGIN;
+
+
+rvm install 2.6.5 --with-openssl-dir=$HOME/.rvm/usr
+
+
+AddDeletedAtToUsers
+

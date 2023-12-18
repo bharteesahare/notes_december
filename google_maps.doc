@@ -1,0 +1,56 @@
+https://betterprogramming.pub/integrate-google-maps-with-a-rails-app-5e5012e8cf16
+// history.pushState(null, null, window.location.href);
+// history.back();
+// window.onpopstate = () => history.forward();
+
+// history.pushState(null, null, null);
+// $(window).on("popstate", function (event) {
+//   if (!event.originalEvent.state) {
+//     history.pushState(null, null, null);
+//     return;
+//   }
+// });
+
+
+// $(function(){
+//  history.pushState(null, null, null); //ブラウザバック無効化
+//  //ブラウザバックボタン押下時
+//  $(window).on("popstate", function (event) {
+//    history.pushState(null, null, null);
+//    window.alert('前のページに戻る場合は、「前に戻る」ボタンから戻ってください。');
+//  });
+// });
+// $(function(){
+//  history.pushState(null, null, null); //ブラウザバック無効化
+//  //ブラウザバックボタン押下時
+//  $(window).on("popstate", function (event) {
+//    history.pushState(null, null, null);
+//    window.alert('前のページに戻る場合は、「前に戻る」ボタンから戻ってください。');
+//  });
+// });
+
+
+// history.pushState(null, null, null);
+// window.addEventListener('popstate', function () {
+//     history.pushState(null, null, null);
+// });
+
+// history.pushState(null, null, window.location.href);
+// window.addEventListener('popstate', function () {
+//     history.pushState(null, null, document.URL);
+// });
+
+// history.pushState(null, null, window.location.href);
+// history.back();
+// window.onpopstate = () => history.forward();
+
+// history.pushState(null, null, location.href);
+// history.back();
+// history.forward();
+// window.onpopstate = function () { history.go(1); };
+
+// history.pushState(null, null, window.location.href);
+// window.addEventListener('popstate', function () {
+//     history.pushState(null, null, window.location.href);
+// });
+// <script type = "text/javascript" > 

@@ -1,0 +1,211 @@
+create the tbale for weight freeeze
+
+id,
+PID => product id
+product name
+SKU Summary
+Channel
+Package Details => Dimensions 0.000 x 0.000 x 0.000 cm Dead Weight 0.000 Kg
+Images
+Weight Freeze Status
+Action
+
+
+create the product table:
+
+{"cp_id"=>76084816, "product_id"=>19440675, "sku"=>"mahi123", "product_name"=>"mahi", "description"=>nil, "active"=>1, "created_at"=>"2022-10-10 11:26:33", "updated_at"=>"2023-11-02 16:09:59", "inventory"=>126, "product_type"=>"normal_product", "brand"=>"Clothing", "colour"=>"NA", "category_id"=>196032, "brand_id"=>7137223, "accounting_sku"=>nil, "accounting_unit"=>nil, "category_name"=>"Select a category", "expiry_type"=>0, "company_name"=>"ashish", "c_id"=>81909, "height"=>100, "length"=>100, "width"=>100, "weight"=>1342, "cost"=>1990, "mrp"=>1000, "size"=>"NA", "cp_sub_products_count"=>0, "model_no"=>"3213", "hsn_code"=>nil, "tax_rate"=>0.05, "product shelf life"=>nil, "product_image_url"=>nil, "cp_inventory"=>126} 
+
+
+
+
+rails g model Product product_id:integer sku:string product_name:string active:integer inventor:integer product_type:string brand:string  colour:string category_id:integer brand_id:integer category_name:string expiry_date:integer company_name:string height:float length:float width:float weight:float cost:float mrp:fload size:float tax_rate:float image:string
+
+rails g model PackageDetail weight:float length:float width:float height:float chargeable_weight image:string product:references
+
+rails g model PackageImage image:string product:references
+
+
+
+weight disperency:
+
+rails g controller api/v1/weight_discrepancies
+
+
+rails g model WeightDiscrepancy volumetric_weight:float dead_weight:float length:float width:float height:float charged_weight:float excess_weight:float courier_images:string status:integer order:references awb_number
+
+
+weight_discrepancy = WeightDiscrepancy.find_or_initialize_by(awb_number: awb_number, order_id: order.id)
+
+All Statuses
+New Discrepancy
+Auto Accepted Discrepancy
+Discrepancy Accepted
+Dispute Raised
+Dispute Accepted by Courier
+Dispute Rejected by Courier
+
+weight_string = "500g"
+numeric_part = weight_string.to_i
+weight_in_kilograms = numeric_part / 1000.0
+
+puts "Weight in kilograms: #{weight_in_kilograms} kg"
+
+
+# Sample object class (replace this with your actual class)
+class MyObject
+  attr_accessor :name, :age
+
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+end
+
+# Sample data (replace this with your actual data)
+my_objects = [
+  MyObject.new('John', 25),
+  MyObject.new('Jane', 30),
+  MyObject.new('Bob', 22)
+]
+
+# Render JSON for each object in a loop
+json_array = my_objects.map do |obj|
+  {
+    name: obj.name,
+    age: obj.age
+    # Add more attributes as needed
+  }.to_json
+end
+
+# Now, json_array contains an array of JSON strings for each object
+puts json_array
+
+
+
+# app/models/your_model.rb
+
+class YourModel < ApplicationRecord
+  after_create :set_7_day_timeline
+
+  def set_7_day_timeline
+    # Calculate the end of the 7-day timeline
+    end_of_timeline = created_at + 7.days
+
+    # Store or use the end_of_timeline as needed
+    update(end_date: end_of_timeline)
+  end
+
+  def remaining_days
+    # Calculate the remaining days between now and end_of_timeline
+    remaining_days = (end_date - Time.now).to_i / 1.day
+
+    # Ensure the result is non-negative
+    remaining_days >= 0 ? remaining_days : 0
+  end
+end
+
+
+
+def update_status_if_needed
+	# Check if the remaining days are non-negative
+	return if remaining_days > 0
+
+	# Update the status when the timeline has expired
+	update(status: 'Expired Status') # Update the status as needed
+end
+
+
+Dear Team,
+ 
+As part of our daily routine, I'd like each team member to provide a brief update on their progress, plans for today, and any challenges they currently face. This will help us stay informed, aligned, and ready to support each other. 
+Because our daily scrum call schedule is at 5:30, there is no hope that there is a blocker and we can hold it till 5:30. If any one faces any difficulty or a blocker you can send a message directly to the group. This proactive approach will help us make the most of our time together.
+ 
+Plans for Today:
+Task 3: Check the import csv api for delivery partner.
+Task 1: Create the weight discrepancy listing apis.
+Task 2: Add the logic for the calculate the excess price.
+
+ 
+Any Blocker: 
+No Blocker.
+
+
+def index
+    begin 
+      @weight_discrepancies = WeightDiscrepancy.all.order(updated_at: :desc).paginate(:page => params[:page], :per_page => 10)
+      result = []
+      if @weight_discrepancies.present?
+        @weight_discrepancies.map do |weight_discrepancy|
+          result << ({
+            id: weight_discrepancy&.id,
+            status_updated_on: weight_discrepancy&.updated_at&.strftime("%e %B %Y %I:%M %p").presence || "",
+            product_name: weight_discrepancy&.order&.order_items&.map(&:productName).presence || "",
+            product_sku: weight_discrepancy&.order&.order_items&.map(&:sku).presence || "",
+            prouduct_quantity: weight_discrepancy&.order&.order_quantity.presence || "",
+            shipping_awb: weight_discrepancy&.awb_number.presence || "",
+            shipping_courier: weight_discrepancy&.courier || "",
+            applied_weight: weight_discrepancy&.dead_weight.presence || "",
+            dead_weight: weight_discrepancy&.dead_weight.to_f || "",
+            volumetric_weight: weight_discrepancy&.volumetric_weight.presence || "",
+            charged_weight: "#{weight_discrepancy&.charged_weight / 1000.0} kg" ,
+            excess_weight: "#{weight_discrepancy&.excess_weight / 1000.0} kg", 
+            excess_charges: "Rs #{weight_discrepancy&.excess_charges.round(2)}",
+            courier_images: weight_discrepancy&.courier_images.presence || "",
+            status: weight_discrepancy&.status,
+            remaining_days: weight_discrepancy.remaining_days
+          })
+        end
+        render json: {status: "ok", result: result}
+      else
+        render json: {status: "ok", message: "Record Not Found"}
+      end
+    rescue => e
+      render json: {status: "error", message: e.message}
+    end
+  end
+
+  def History
+  end
+  
+
+
+  # entered_charges_params = {
+          #   "pickup_pin_code" => order&.pickup_address["pickup_pin_code"],
+          #   "pin_code" => order&.customer_details["pin_code"],
+          #   "payment_mode" => order&.payment_mode,
+          #   "total_amount" => order&.total_amount,
+          #   "Length" => row[4].split('x')[0],
+          #   "Width" => row[4].split('x')[1],
+          #   "Height" => row[4].split('x')[2],
+          #   "Weight" =>  row[3]
+          # }
+          # entered_charges = XpressBeesService.calculate_weight_discrepancy(entered_charges_params, row[1])
+          # applied_charges_params = {
+          #   "pickup_pin_code" => order&.pickup_address["pickup_pin_code"],
+          #   "pin_code" => order&.customer_details["pin_code"],
+          #   "payment_mode" => order&.payment_mode,
+          #   "total_amount" => order&.total_amount,
+          #   "Length" => row[4].split('x')[0],
+          #   "Width" => row[4].split('x')[1],
+          #   "Height" => row[4].split('x')[2],
+          #   "Weight" =>  row[5]
+          # }
+          # applied_charges = XpressBeesService.calculate_weight_discrepancy(applied_charges_params, row[1])
+          #excess weight = applied weight - entered weight
+          # excess_charges = applied_charges["total_charges"] - entered_charges["total_charges"]
+
+awb_number
+14344985868328
+courier
+XpressBees
+
+420 52  "154957656" "RO00000420"  "B2C" "4325r" "Roopdev" "ur7293843216"  "85404"   "Roopdev" "85404"   "{""pickup_city"": ""Hyderabad"", ""pickup_state"": ""Telangana"", ""pickup_addres"": ""Madhapur"", ""pickup_country"": ""India"", ""pickup_pin_code"": ""500081""}"  "COD"   "10"  "2023-11-06 05:30:00" "2023-11-14 00:00:11" "XpressBees"  "23"  "Assigned"  "1" "2"     1500    64  0 1500  0 0 "{""Width"": 10, ""Height"": 10, ""Length"": 10, ""Weight"": 500}"  1 "2023-11-06 11:49:53.301274"  "2023-11-06 11:51:11.769162"  "{""city"": ""Hyderabad"", ""name"": ""roop"", ""email"": ""roopa@yopmail.com"", ""state"": ""Telangana"", ""country"": ""India"", ""pin_code"": ""500081"", ""contact_num"": ""8788675656"", ""address_line_1"": ""Madhapur"", ""address_line_2"": null}"  "14344986096831"      
+
+    
+163 21  "137129743" "AS00000163"  "B2C" "9099893_21"  "ashish"  "ne6709084281"  "81909"   "ashish"  "81909"   "{""pickup_city"": ""C1 615 Karol Bag"", ""pickup_state"": ""Andhra Pradesh"", ""pickup_addres"": ""Indore"", ""pickup_country"": ""India"", ""pickup_pin_code"": ""500089""}"  "COD" "Shopify" "10"  "2023-08-17 05:30:00" "2023-08-18 12:36:56" "Delhivery" "23"  "in transit(out for delivery)"  "3" "2"     4089  194.714 0 0 4089  0 0 "{""Width"": 100, ""Height"": 100, ""Length"": 100, ""Weight"": 2684}"  2 "2023-08-22 10:51:09.886862"  "2023-11-22 11:46:07.480808"  "{""city"": ""Hyderabad"", ""name"": ""Kalyan"", ""email"": ""kalyan@gmail.com"", ""state"": ""Telangana"", ""country"": ""India"", ""pin_code"": ""500048"", ""contact_num"": ""9030218662"", ""address_line_1"": ""Manikonda"", ""address_line_2"": null}"  "6042210002645" "https://tinyurl.com/yrdzakob"  "https://dev.gohyper.space/track/137129743"   
+
+
+
+rails g migration add_column_description_to_weight_discrepancies description:text
+
+https://www.trustradius.com/products/routegenie/pricing

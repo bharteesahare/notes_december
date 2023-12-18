@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700"
+    />
+
+    <style>
+      .hyperspace-container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 30px;
+
+        align-items: center;
+
+        padding-top: 64px;
+
+        padding-bottom: 30.5px;
+
+        padding-left: 20px;
+
+        padding-right: 20px;
+
+        width: 1200px;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        background-color: white;
+
+        margin: auto;
+      }
+
+      .hyperspace-container1 {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: row;
+
+        gap: 8px;
+
+        align-items: flex-start;
+
+        align-self: stretch;
+
+        justify-content: space-between;
+      }
+
+      .hyperspace-heading {
+        box-sizing: border-box;
+
+        flex: 0 0 auto;
+
+        font: 700 48px Montserrat;
+
+        color: #111111;
+      }
+
+      .logo-heading {
+        box-sizing: border-box;
+
+        flex: 0 0 auto;
+
+        font: 700 48px Montserrat;
+
+        color: #999999;
+      }
+
+      .shipping-details {
+        box-sizing: border-box;
+
+        display: flex;
+
+        width: 100%;
+
+        flex-direction: column;
+
+        justify-content: space-between;
+
+        gap: 10px;
+      }
+
+      .address-info {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: space-between;
+      }
+
+      .location-container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex-direction: column;
+
+        padding-left: 0px !important;
+
+        padding-right: 0px !important;
+
+        width: 30%;
+
+        gap: 5px;
+      }
+
+      .shipping-address-title {
+        box-sizing: border-box;
+
+        font: 700 20px Montserrat;
+
+        color: #111111;
+      }
+
+      .retailer-info-container {
+        display: flex;
+
+        flex-direction: column;
+
+        width: 30%;
+
+        gap: 5px;
+      }
+
+      .invoice-details1 {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        justify-content: center;
+
+        width: 30%;
+
+        padding-right: 15px;
+
+        padding-left: 15px;
+      }
+
+      .customer-invoice-container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: space-between;
+      }
+
+      .customer-retailer-invoice-identifier-container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex-direction: row;
+
+        padding-left: 0px !important;
+
+        padding-right: 0px !important;
+
+        justify-content: space-between;
+      }
+
+      .invoice-details {
+        box-sizing: border-box;
+
+        font: 500 14px Montserrat;
+
+        color: #111111;
+
+        margin: 0px !important;
+      }
+
+      .invoice-container {
+        display: flex;
+
+        flex-direction: column;
+
+        width: 30%;
+
+        gap: 8px;
+      }
+
+      .invoice-identifier-container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        justify-content: center;
+
+        width: 15.91%;
+
+        padding-right: 15px;
+
+        padding-left: 15px;
+      }
+
+      .state-info-container {
+        box-sizing: border-box;
+
+        flex: 0 0 auto;
+
+        width: 35.5%;
+      }
+
+      .contact-info {
+        box-sizing: border-box;
+
+        margin-top: 10px;
+
+        font: 500 14px Montserrat;
+
+        color: #111111;
+      }
+
+      .hyper-space-container {
+        box-sizing: border-box;
+
+        flex: 0 0 auto;
+
+        width: 36.91%;
+
+        padding-right: 15px;
+
+        padding-left: 15px;
+      }
+
+      .montserrat-font-weight400 {
+        font-family: Montserrat;
+
+        font-weight: 400;
+      }
+
+      .prepaid-status {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: row;
+
+        align-items: flex-start;
+
+        justify-content: flex-start;
+
+        width: 27.59%;
+
+        padding-right: 15px;
+
+        padding-bottom: 10px;
+
+        padding-left: 15px;
+      }
+
+      .prepaid-text {
+        box-sizing: border-box;
+
+        flex: 0 1 auto;
+
+        font: 500 14px Montserrat;
+
+        color: #111111;
+      }
+
+      .prepaid-label {
+        box-sizing: border-box;
+
+        flex: 0 0 auto;
+
+        padding-bottom: 17px;
+
+        margin-left: 53px;
+
+        font: 500 14px Montserrat;
+
+        color: #111111;
+      }
+
+      .shipping-address-email {
+        box-sizing: border-box;
+
+        flex: 0 0 auto;
+
+        font: 500 14px Montserrat;
+
+        color: #111111;
+      }
+
+      .container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        align-self: stretch;
+
+        justify-content: flex-start;
+      }
+
+      .invoice-details2 {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        justify-content: flex-start;
+      }
+
+      .customer-invoice-details {
+        height: 70px;
+
+        padding-right: 58px;
+
+        padding-left: 58px;
+
+        background: #f2f2f2;
+
+        display: flex;
+
+        justify-content: space-between;
+      }
+
+      .customer-info {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        justify-content: center;
+      }
+
+      .customer-info-text {
+        box-sizing: border-box;
+
+        font: 500 12px Montserrat;
+
+        color: #111111;
+      }
+
+      .invoice-number-container1 {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        justify-content: center;
+
+        width: 11.67%;
+      }
+
+      .invoice-number-container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        justify-content: center;
+
+        width: 8.33%;
+      }
+
+      .price-container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        justify-content: center;
+      }
+
+      .column-box {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        align-items: stretch;
+
+        justify-content: center;
+
+        width: 10%;
+      }
+
+      .flex-column-center {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        width: 5%;
+      }
+
+      .product-sku-label {
+        font-family: Montserrat;
+
+        font-weight: 600;
+
+        color: #111111;
+      }
+
+      .montserrat-font-weight400-color111111 {
+        font-family: Montserrat;
+
+        font-weight: 400;
+
+        color: #111111;
+      }
+
+      .shipping-charges-container2 {
+        box-sizing: border-box;
+
+        display: flex;
+
+        /*    flex: 0 0 auto; */
+
+        width: 40%;
+
+        flex-direction: row;
+
+        align-self: flex-end;
+
+        justify-content: space-between;
+
+        margin-right: 20px;
+
+        margin-top: 20px;
+      }
+
+      .shipping-charges-container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        width: 37%;
+      }
+
+      .shipping-charges-container3 {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex: 0 0 auto;
+
+        flex-direction: column;
+
+        width: 20%;
+      }
+
+      .shipping-charges-container1 {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex-direction: column;
+
+        justify-content: center;
+
+        width: 10%;
+      }
+
+      .shipping-charges-column {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex-direction: column;
+
+        width: 10%;
+      }
+
+      .net-total-container {
+        box-sizing: border-box;
+
+        display: flex;
+
+        flex-direction: row;
+
+        justify-content: flex-end;
+
+        width: 100%;
+
+        border-top: 1px solid #cccccc;
+
+        border-bottom: 1px solid #cccccc;
+      }
+
+      .net-total-value1 {
+        box-sizing: border-box;
+
+        flex: 0 0 auto;
+
+        margin-right: 40px;
+
+        font: 600 30px Montserrat;
+
+        color: #111111;
+      }
+
+      .net-total-value {
+        box-sizing: border-box;
+
+        flex: 0 0 auto;
+
+        font: 600 30px Montserrat;
+
+        color: #111111;
+      }
+
+      .tax-invoice-button {
+        box-sizing: border-box;
+
+        font: 600 30px Montserrat;
+
+        color: #111111;
+
+        display: flex;
+
+        justify-content: center;
+
+        align-items: center;
+
+        background-color: #f2f2f2;
+
+        height: 72px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="hyperspace-container">
+      <div class="hyperspace-container1">
+        <img src= <%= image_url('MicrosoftTeams-image.png') %>
+        style="background-color: black ; width: 120px " />
+        <p class="logo-heading"><%= @order.company_name%></p>
+      </div>
+
+      <div
+        class="tax-invoice-button"
+        style="width: 100%; justify-content: center"
+      >
+        <p>Tax Invoice</p>
+      </div>
+
+      <div class="shipping-details">
+        <div class="address-info">
+          <div class="location-container">
+            <p class="shipping-address-title">SHIPPING ADDRESS</p>
+          </div>
+
+          <div class="retailer-info-container">
+            <p class="shipping-address-title">SOLD BY</p>
+          </div>
+
+          <div class="invoice-details1">
+            <p class="shipping-address-title">INVOICE DETAILS</p>
+          </div>
+        </div>
+
+        <div class="customer-invoice-container">
+          <!-- Repeated elements detected. These are rendered using loops & conditions in the React tab -->
+
+          <div class="customer-retailer-invoice-identifier-container">
+            <div class="location-container">
+              <p class="invoice-details">Customer Name: <%= @order.customer_details["name"]%></p>
+
+              <p class="invoice-details">Address:</p>
+
+              <p class="invoice-details">
+                <%@address = @order.customer_details %>
+                <%=@address["address_line_1"]%>,
+                <%=@address["address_line_2"].to_s%>,
+                <%=@address["city"]%>,
+                <%=@address["pin_code"]%>
+              </p>
+
+              <p class="invoice-details">Ph: <%=@address["contact_num"]%></p>
+
+            </div>
+
+            <div class="retailer-info-container">
+              <p class="invoice-details">Retailer Name / Store Name: Zenleap</p>
+
+              <p class="invoice-details">Address:</p>
+
+              <p class="invoice-details">
+                <%= @order.pickup_address["pickup_city"]%> ,
+                <%= @order.pickup_address["pickup_addres"].gsub(/scoogle , /, '') %>, 
+                <%= @order.pickup_address["pickup_pin_code"]%>,
+                <%= @order.pickup_address["pickup_state"]%>,<%=
+                @order.pickup_address["pickup_country"]%>
+
+              </p>
+
+              <p class="invoice-details">Ph: <%= @current_user.mobile_number%></p>
+              <p class="invoice-details">Email: <%= @user.email%></p>
+
+
+            </div>
+
+            <div class="invoice-container">
+              <!-- <p class="invoice-details">INVOICE NO: @order</p>
+
+              <p class="invoice-details">INVOICE DATE: 15/07/2020</p> -->
+
+              <p class="invoice-details">ORDER NO: <%= @order.client_order_id%></p>
+
+              <p class="invoice-details">ORDER DATE: <%= @order.order_date.strftime("%D")%></p>
+
+              <p class="invoice-details">CHANNEL: madape</p>
+
+              <p class="invoice-details">SHIPPED BY: <%= @order.courier%> </p>
+
+              <p class="invoice-details">AWB NO: <%= @order.awb_number%></p>
+
+              <p class="invoice-details">PAYMENT METHOD: <%= @order.payment_mode%></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="invoice-details2">
+          <!-- Repeated elements detected. These are rendered using loops & conditions in the React tab -->
+
+          <div
+            class="customer-retailer-invoice-identifier-container customer-invoice-details"
+          >
+            <div class="customer-info" style="width: 5%">
+              <p class="customer-info-text">S.NO.</p>
+            </div>
+
+            <div class="customer-info" style="width: 21%">
+              <p class="customer-info-text">PRODUCT NAME</p>
+            </div>
+
+        <!--     <div class="invoice-number-container1" style="width: 8%">
+              <p class="customer-info-text">HSN</p>
+            </div> -->
+
+            <div class="invoice-number-container" style="width: 5%">
+              <p class="customer-info-text">QTA</p>
+            </div>
+
+            <div class="price-container" style="width: 10%">
+              <p class="customer-info-text">UNITE PRICE</p>
+            </div>
+
+            <div class="customer-info" style="width: 10%">
+              <p class="customer-info-text">UNITE DISCOUNY</p>
+            </div>
+
+            <div class="column-box" style="width: 10%">
+              <p class="customer-info-text">
+                TAXABLE
+
+                <br />
+
+                VALUE
+              </p>
+            </div>
+
+            <div class="column-box" style="width: 10%">
+              <p class="customer-info-text" style="">
+                IGST
+
+                <br />
+
+                (VALUE 1%)
+              </p>
+            </div>
+
+            <div class="flex-column-center" style="width: 10%">
+              <p class="customer-info-text">
+                TOTAL
+
+                <br />
+
+                (Including GST)
+              </p>
+            </div>
+          </div>
+          <%count = 1%>
+          <%@order.order_items.each do |item|%>
+
+          <div class="customer-retailer-invoice-identifier-container">
+            <div class="customer-info" style="width: 5%">
+              <p class="customer-info-text"><%= count%></p>
+            </div>
+
+            <div class="customer-info" style="width: 21%">
+              <p class="customer-info-text">
+                <span class="product-sku-label">
+                  Item Name: <%= item.productName%>
+
+                  <br />
+                </span>
+
+                <span class="montserrat-font-weight400-color111111"
+                  >SKU : <%= item.sku%></span
+                >
+              </p>
+            </div>
+
+            <div class="invoice-number-container" style="width: 5%">
+              <p class="customer-info-text"><%= item.item_quantity%></p>
+            </div>
+
+
+            <div class="invoice-number-container1" style="width: 8%">
+              <p class="customer-info-text"><%= (item.selling_price.to_f - item.total_miscellaneous.to_f).round(2)%></p>
+            </div>      
+
+
+            <div class="price-container" style="width: 10%">
+              <p class="customer-info-text"><%= (item.total_miscellaneous.to_f).round(2)%></p>
+            </div>
+
+            <!-- <div class="customer-info" style="width: 10%">
+              <p class="customer-info-text"><%= %></p>
+            </div> -->
+
+            <div class="column-box" style="width: 10%">
+              <p class="customer-info-text"><%= item.mrp%></p>
+            </div>
+
+            <div class="column-box" style="width: 10%">
+              <p class="customer-info-text">0 / 0</p>
+            </div>
+
+            <div class="flex-column-center" style="width: 10%">
+              <p class="customer-info-text"><%= item.selling_price%></p>
+            </div>
+          </div>
+          <%count = count + 1 %>
+          <%end%>
+        </div>
+
+        <!-- <div class="shipping-charges-container2">
+          <div class="shipping-charges-container">
+            <p class="customer-info-text">Shipping Charges</p>
+          </div>
+
+          <div class="shipping-charges-container3">
+            <p class="customer-info-text">255</p>
+          </div>
+
+          <div class="shipping-charges-container1">
+            <p class="customer-info-text">0 / 0</p>
+          </div>
+
+          <div class="shipping-charges-column">
+            <p class="customer-info-text">50</p>
+          </div>
+        </div> -->
+      </div>
+
+      <div class="net-total-container">
+        <p class="net-total-value1">NET TOTAL (In Value)</p>
+
+        <p class="net-total-value">RS. <%= @order.total_amount%></p>
+      </div>
+    </div>
+  </body>
+</html>

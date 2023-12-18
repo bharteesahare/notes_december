@@ -1,0 +1,2609 @@
+app_password: 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
+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
+smtp
+
+chatgtp api key: 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
+mail_app_password: lqjlgmhtfsagvsoc
+Link bharti.shahare@truequations.com by Bharti Shahare
+Wednesday 16:20
+Bharti Shahare
+[Monday 15:45] AnveshMunnanooru
+gohyperspace@gmail.com
+
+Gohyper@23
+
+Console sign-in URL Iam User AWS
+
+https://876468376168.signin.aws.amazon.com/console
+User name
+
+Bhartee
+Console password
+
+Bhartee@104136
+Hide
+
+Account ID
+
+876468376168
+Account Alias
+bhartee
+Edit
+|
+Delete
+Sign-in URL for IAM users in this account
+
+https://bhartee.signin.aws.amazon.com/console
+
+bharti.shahare@truequations.com
+153152852
+138181655
+Message by Bharti Shahare, has an attachment.
+
+font-size: 0.857rem;
+    align-items: center !important;
+    align-content: center;
+    margin-left: 400px;
+    validate :valid_email_domain
+
+      private
+
+      def valid_email_domain
+        return if email.blank? # Skip validation if email is blank
+f
+        unless email.ends_with?('.com')
+          errors.add(:email, 'must have the domain ".com"')
+        end
+      end
+ssh -i "~/.ssh/ec2_tsrtc.pem" ubuntu@65.2.96.65
+ssh ubuntu@65.2.96.65
+
+>> ssh-keygen
+Generating public/private rsa key pair.
+Enter file in which to save the key (/home/developer/.ssh/id_rsa):
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /home/developer/.ssh/id_rsa
+Your public key has been saved in /home/developer/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:G0mYxhj1+bgrGq49sIBWoFkBKMHWy+wWAs2kaKeItl8 developer@truequations-HP-Laptop-15s-du3xxx
+The key's randomart image is:
++---[RSA 3072]----+
+|=*+....          |
+|==+. + + .       |
+|B++.o = +        |
+|*.o* . . +       |
+|+o+ .   S .      |
+|+.oo     +       |
+|.o.o.E  o        |
+|  ooo..  .       |
+|  .o+o ..        |
++----[SHA256]-----+
+
+>> ssh-add
+Identity added: /home/developer/.ssh/id_rsa (developer@truequations-HP-Laptop-15s-du3xxx)
+
+ssh-copy-id ubuntu@65.2.96.65
+
+ssh key id:
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+NhAAAAAwEAAQAAAYEAq7Drcs4QBlfNW44H1iscnWAz5+jiukTBBEgl6kATPPqyg2aQ5Anp
+QKtiOk7FF3wc2cLwOGw6i0VBiZyVj17Nv6J7czU033e/fKPpk6CGT97fKFKSfEr3j9qQYE
++u/QvSHwaRG4TmQFzX8gN4Y6qifLPvQ+TlV2C54dAuyxBBYiVHRGmHshvtL4BJb+EnYg5j
+PItT2OoQMuhANYLN0FMGcZzPC89MIiRHCBeJY0hlSH5AgTVfcQasOsR1OfKEVpNgA/kiwa
+JnKQU/e/kMGBc16hr84vDnkpTwj6MOoV2GCZDtpUtzDqqDGPbynIjPMdWAJ7sM1bFsLDPE
+khJ8HWxN6PoOfHG7fm6q3GJUW4oaf0aUgw6wwzqPUVCximP3krTTJODZAmC3rY66ladQkFI
+BR5WOaxoTk3J1Hy0CEJis71TUwPCORyj7PYqTDMkuaYC9k/QlWe7Y1dA9KhLD1RFbk7MYN
+lAmVDYq4wqUQj6SMde77dm9kGbEy5rxc6vxfQFcLAAAFoBfR+JwX0ficAAAAB3NzaC1yc2
+EAAAGBAKuw63LOEAZXzVuOB9YrHJ1gM+fo4rpEwQRIJepAEzz6soNmkOQJ6UCrYjpOxRd8
+HNnC8DhsOotFQYmclY9ezb+ie3M1NN93v3yj6ZOghk/e3yhSknxK94/akGBPrv0L0h8GkR
+uE5kBc1/IDeGOqonyz70Pk5VdgueHQLssQQWIlR0Rph7Ib7S+ASW/hJ2IOYzyLU9jqEDLo
+QDWCzdBTBnGczwvPTCIkRwgXiWNIZUh+QIE1X3EGrDrEdTnyhFaTYAP5IsGiZykFP3v5DB
+gXNeoa/OLw55KU8I+jDqFdhgmQ7aVLcw6qgxj28pyIzzHVgCe7DNWxbCwzxJISfB1sTej6
+Dnxxu35uqtxiVFuKGtGlIMOsMM6j1FQsYpj95K00yTg2QJgt62OupWnUJBSAUeVjmsaE5N
+ydR8tAhCYrO9U1MDwjkco+z2KkwzJLmmAvZP0JVnu2NXQPSoSw9URW5OzGDZQJlQ2KuMKl
+EI+kjHXu+3ZvZBmxMua8XOr8X0BXCwAAAAMBAAEAAAGACprS8DRqKPojZRRQx5nCGrZmfl
+yUJI06ntkV/nIWvh1+CT+8k1lJXwU2/AMBiYHRBmJUFCgbNZ8BfU5+rmxcqQmQNn2C1oq+
++SPmuYegxC4v+n2fLq4yvF/zqv9A/8BLKj9tlxWOY0tYy0oLlZxkjO9QSBFLWSpQUPJa8Y
+//eeBzlnYuO4IeFGEIKDDwDc51sreoZi2O8pYF4UhDDisSqtHUuBYFzdYPzSAnDErcdq3V
+riVtz71pxfd8hifEpNRVb/ndCgUjXJaugflH8ly7C9/0GptGRNpSmhI6j/nr1g61E5cDUF
+k4qjXwgKM4O9XJQaSkb75UskXxFl7AXMb+20BSCPZhYawmJffZX73pYITopPBNZeE4StJd
+U7Kcs0AshWqZb3sJLphYAZSjFIg8eugF7T64jWscvA1o/trqxRxPJxpYnrBQ/9peKkjO5t
+Q0c/FjlbQZ7t5xtJtcnUulL809ZvTt87vXAoTXGIUn1BnZWFO4XQvSV6wUOKGrPWIBAAAA
+wBVyopgP2dcB0vha/YinCScQjaBSk6bv//pr4Xl5Rjsg8ntjszfWlrh6zNma7BfHNbdsbo
+tfh5aLlO3jtgvVReQj9VIr0bLwwWGF8HLHf2DG9SNIooiRyK1+FkoHepIwPsIUL69n3cUY
+UA37yGEghMDWssfUKsuFZ/hdTqtsp8X2rFWVViJDYMmGz+/AqDTBRuC2p5tkzDtiZ8g5kl
+katn+9aEOLiLo2qIn2lCgsyVFCenJjF8cvQXSmSn7LiJj7RAAAAMEA3RbCu9XedB/gwmqP
+
+AWS EC2 SSH key management | How to launch and SSH into EC2 instance with public & private key pair:
+chmod 400 ec2_tsrtc.pem
+~/Downloads$ ssh -i ec2_tsrtc.pem ubuntu@65.2.96.65
+
+# Default branch is :master
+deploy.rb
+ask :branch, `git checkout azuracast`.chomp
+
+window.history.pushState(null, null, window.location.href);
+window.onpopstate = function () {
+    window.history.pushState(null, null, window.location.href);
+};
+
+Hyperspace
+ssh -i ec2-hyper.pem ubuntu@13.234.166.242
+environment = Rails.env
+ => "development"
+2.6.5 :002 > configuration = ActiveRecord::Base.configurations[environment]
+DEPRECATION WARNING: [] is deprecated and will be removed from Rails 7.0 (Use configs_for) (called from irb_binding at (irb):2)
+ => {:adapter=>"postgresql", :encoding=>"unicode", :username=>"HSMaster", :password=>"Hyperspace001", :pool=>5, :database=>"DbSpace", :host=>"hyperspacedb.czctfm4moffl.ap-south-1.rds.amazonaws.com", :port=>5432}
+pg_dump -F c -v -U postgres -h localhost hyperspace -f /tmp/<filename>.psql
+pg_restore -c -C -F c -v -U postgres oct_6.psql
+
+
+cd Downloads/SecretPemKeys
+ssh -i ec2-hyper.pem ubuntu@13.234.166.242
+cd Hyperspace-Backend-ROR
+Hyperspace001
+
+
+
+ssh -i ec2-hyper.pem ec2-13-234-166-242.ap-south-1.compute.amazonaws.com
+postgres://HSMaster:Hyperspace001@hyperspacedb.czctfm4moffl.ap-south-1.rds.amazonaws.com:5432/DbSpace
+postgres://AuralMaster:2UcsTbBNVkzVctXeywXm@auraldb.c5ksvuepmt3i.ap-south-1.rds.amazonaws.com/aural_db
+
+For AWS if the user is ubuntu use the following to connect to remote server.
+chmod 400 mykey.pem
+ssh -i mykey.pem ubuntu@your-ip
+going to the RadioBackendPOC/current
+bundle exec rails c
+
+rollback the current path:
+cap deploy:rollback -s previous_release=/home/ubuntu/RadioBackendPOC/releases/20230629141520
+cap production deploy:rollback ROLLBACK_RELEASE=20230629141520=>working fine for me.
+
+/home/ubuntu/RadioBackendPOC/releases
+
+env:EDITOR="code"
+
+65.2.96.65
+
+set :port, 22
+set :user, 'ubuntu'
+set :env, 'production'
+set :deploy_via, :remote_cache
+set :use_sudo, false
+
+server '18.179.209.223',
+  roles: [:web, :app, :db],
+  port: fetch(:port),
+  user: fetch(:user),
+  primary: true
+
+set :deploy_to, "/home/#{fetch(:user)}/apps/#{fetch(:application)}"
+
+set :ssh_options, {
+  forward_agent: true,
+  keys: %w(~/.ssh/venture-support-kp.pem) ,
+  auth_methods: %w(publickey),
+  user: 'ubuntu',
+}
+
+set :rails_env, :production
+set :whenever_environment, ->{ fetch(:env) }
+set :whenever_identifier,  ->{ "#{fetch(:application)}_#{fetch(:rails_env)}" }
+set :conditionally_migrate, true
+
+
+
+Connecting via pgAdmin 4:
+Open pgAdmin 4 on your computer.
+In the pgAdmin interface, navigate to the "Object" browser on the left side.
+Right-click on "Servers" and select "Create > Server...".
+In the "General" tab of the "Create - Server" dialog:
+Provide a name for the server.
+In the "Connection" section, enter the following details:
+Host name/address: spacedb.czctfm4moffl.ap-south-1.rds.amazonaws.com
+(postgres://HSMaster:Space001@spacedb.czctfm4moffl.ap-south-1.rds.amazonaws.com:5432/DbSpace),
+postgres://HSMaster:Hyperspace001@hyperspacedb.czctfm4moffl.ap-south-1.rds.amazonaws.com:5432/DbSpace
+
+Port: 5432
+Maintenance database: DbSpace
+Username: HSMaster
+Password: Space001
+Click the "Save" button to add the server to pgAdmin.
+You can now expand the server in the "Object" browser to see its databases, schemas, and other objects.
+Please note that in both cases, you should ensure that your database URL, credentials, and other details are kept secure and not hard-coded directly into your application or tools for security reasons. Using environment variables or configuration files with restricted access is recommended.
+83097 68727, Santhosh@23
+
+
+<% price = (item.selling_price.to_i - (item.tax.to_f).round(2))%>
+                <% unit_price = price + (item.total_miscellaneous.present? ? (item.total_miscellaneous.to_f).round(2) : 0 )%>
+
+https://remimercier.com/asynchronous-requests/
+https://betterprogramming.pub/schedule-jobs-in-ruby-on-rails-with-whenever-gem-7cb12f0a8a9e: cronjob url
+https://web-crunch.com/posts/event-scheduling-app-rails-7: rails7 + stripe + scheduling event
+https://towardsdatascience.com/job-board-scraping-with-rails-872c432ed2c8: scrapping
+https://bootrails.com/blog/rails-sidekiq-tutorial/ : sidekiq
+https://www.codementor.io/@leandrotk100/idiomatic-ruby-writing-beautiful-code-pwdt8a8kq
+https://meshworld.in/ruby-on-rails-linkedin-skill-assessments-quizzes-with-answers/
+https://ebazhanov.github.io/linkedin-skill-assessments-quizzes/ruby-on-rails/ruby-on-rails-quiz.html
+What is a class?
+# classes hold data, have methods that interact with that data, and are used to instantiate objects.
+# class Whatever
+#    def initialize
+#      @data = "puts hi"
+#    end
+#    def method
+#      puts @data.gsub('hi', "heloo")
+#    end
+#  end
+#
+# object = Whatever.new
+# object.method
+
+What is an object?
+# Object is the instance of class.
+
+What is a module? Can you tell me the difference between classes and modules?
+# Modules serve as a mechanism for namespaces.
+# A module in Ruby is a container for a set of methods, constants, and other module definitions.
+# It serves as a way to group related functionalities and provide code reuse.
+# Modules are defined using the module keyword.
+# Modules cannot be directly instantiated. They are used to provide functionality that can be mixed into classes.
+#
+#
+# module ANamespace
+#    class Greeting
+#      def initialize
+#        puts "hi we are used the module"
+#      end
+#    end
+#  end
+#
+#  ANamespace::Greeting.new
+#  hi we are used the module
+#   => #<ANamespace::Greeting:0x000055debb90e3a0>
+#
+# Example2:
+#  module Greetings
+#   def say_hello
+#     puts "Hello!"
+#   end
+# end
+#
+# In this example, we define a module called Greetings that contains a single method called say_hello.
+# This module can be included in classes to provide the say_hello method.
+
+
+Classes:
+# Classes support inheritance, allowing one class to inherit characteristics and behaviors from another class. For example:
+#  A class in Ruby is a blueprint for creating objects.
+#  It defines the attributes and behaviors that the objects of that class possess.
+#  Classes are defined using the class keyword.
+#  Classes can be instantiated to create objects. For example:
+#
+#
+#  class Person
+#    def initialize(name)
+#      @name = name
+#    end
+#
+#    def introduce
+#      puts "Hi, my name is #{@name}."
+#    end
+#  end
+#
+# obj = Person.new("Bhartee")
+# obj.introduce
+# Hi, my name is John.
+#
+# class Student < Person
+#    def study
+#      puts "hi am study"
+#    end
+#  end
+#
+# Modules cannot be directly inherited. Instead, they are included in classes using the include keyword to extend their functionality.
+# Classes are used to create objects, and each object has its own set of instance variables.
+# Modules cannot create objects or have instance variables. They define methods and constants that can be shared by multiple classes.
+
+Namespacing:
+# Modules provide namespacing, allowing you to organize related methods and constants under a common module name.
+# Classes have their own namespace based on the class name, but they don't provide explicit namespacing for methods and constants.
+
+Mixin:
+# module Greetings
+#    def say_hello
+#      puts "Hello!"
+#    end
+#  end
+#
+#  class Person
+#    include Greetings
+#  end
+#
+# obj = Person.new
+# obj.say_hello
+# Hello!
+#  => nil
+#
+# In summary, modules are containers for methods and constants that can be included in classes as mixins, providing additional functionality.
+# Classes, on the other hand, are used to create objects, support inheritance, and have their own instances.
+
+
+What is a module and Class in Ruby?
+# Modules are collections of constants and methods; they cannot generate instances.
+# while Class may generate instances or objects and also have instance variables.
+
+What is class self in Ruby?
+# A class self method in ruby is a method that refers only to that Class in all contexts but not to any individual objects of that class.
+
+What is the difference between modules and methods?
+# The method is a function that is related to an object or class, while a module is a group of defined functions, classes, constants, etc.
+
+Can a module include a module Ruby?
+# Yes, a module can be included in the other modules or classes; we have to just use some keywords such as include, prepend and extend.
+
+difference between extend and include
+include:
+# include is used to mix in module methods and constants into a class as instance methods.
+# When a module is included in a class using include, the methods and constants defined in the module become accessible to instances of that class.
+# It provides instance-level behavior and allows objects of the class to use the included module's methods.
+# include is used when you want to add functionality to instances of a class.
+# module Greetings
+#   def say_hello
+#     puts "Hello!"
+#   end
+# end
+#
+# class Person
+#   include Greetings
+# end
+#
+# person = Person.new
+# person.say_hello  # Output: Hello!
+
+Extend:
+# extend is used to add module methods and constants to a class or object as class methods.
+# When a module is extended by a class or object using extend, the methods and constants defined in the module become accessible at the class or object level.
+# It provides class-level behavior and allows the class or object to directly call the extended module's methods.
+# extend is used when you want to add functionality to the class itself or a specific object instance.
+
+# module MathFunctions
+#   def square(x)
+#     x * x
+#   end
+# end
+#
+# number = 5
+# number.extend(MathFunctions)
+# puts number.square
+#
+# In summary, include is used to add module functionality as instance methods within a class,
+# while extend is used to add module functionality as class methods to a class or object.
+# Use include when you want to add behavior to instances of a class, and
+# use extend when you want to add behavior to the class itself or specific object instances.
+
+# module Greeting
+#   def say_hello
+#     puts "Hello!"
+#   end
+# end
+#
+# class Person
+#   include Greeting
+# end
+#
+# class Robot
+#   extend Greeting
+# end
+#
+# person = Person.new
+# person.say_hello  # Output: Hello!
+#
+# Robot.say_hello  # Output: Hello!
+
+Proc, Lambda, and blocks:
+# In Ruby, Proc, Lambda, and blocks are constructs that allow you to define reusable pieces of code.
+# They have similar characteristics but differ in some behaviors and syntax. Let's explore each of them with examples:
+Block:
+# A block is a chunk of code enclosed within either braces {} or do...end.
+# Blocks are not objects themselves but can be associated with method invocations.
+# Blocks are commonly used for one-time, anonymous code execution.
+# Blocks can be passed to methods as arguments to provide additional behavior.
+# numbers = [1, 2, 3, 4, 5]
+# numbers.each {|num| puts num*2}
+# 2
+# 4
+# 6
+# 8
+# 10
+#  => [1, 2, 3, 4, 5]
+#
+#  In this example, we use a block with the each method of an array. The block is defined with braces {} and multiplies each element by 2.
+
+Proc:
+# A Proc is an object that represents a block of code.
+# It can be stored in a variable and reused multiple times.
+# Procs are created using the Proc.new or proc methods, or by using the -> (stabby lambda) syntax.
+# Procs can be passed as arguments to methods and executed with the call method.
+#
+# multiply = Proc.new {|n| n**2}
+#  => #<Proc:0x000055c3716ce348 (irb):19>
+# puts multiply.call(16)
+# 256
+# nil
+# In this example, we define a Proc object called multiply that multiplies a given number by 2.
+# We then execute the proc by calling it with the call method and passing 5 as an argument.
+
+Lambda:
+# A lambda is also an object that represents a block of code, similar to a Proc.
+# Lambdas are defined using the lambda keyword or by using the -> (stabby lambda) syntax.
+# Lambdas have stricter argument handling compared to procs, enforcing the number of arguments.
+# Lambdas return from themselves and don't propagate the return to the calling method.
+# doubler = lambda { |n| n * 2 }
+#  => #<Proc:0x000055c3711df3f0 (irb):21 (lambda)>
+# 3.0.0 :022 > puts doubler.call(5)  # Output: 10
+# 10
+
+# The main difference between procs and lambdas is the way they handle arguments and returns.
+# Procs are more flexible with argument handling and return behavior,
+# while lambdas enforce strict argument arity and return control within themselves.
+
+# Blocks are one-time, anonymous code chunks associated with method invocations.
+# Procs and lambdas are objects that represent blocks of code, with lambdas having stricter argument handling and return behavior compared to procs.
+
+Constructor in ruby:
+# Create objects and pass arguments:
+# To create an object from the class and invoke the constructor,
+# use the new method.
+# Pass any required arguments to the new method that will be passed to the initialize method.
+# class MyClass
+#   def initialize(name)
+#     @name = name
+#   end
+# end
+#
+# obj = MyClass.new("John")
+
+# In this example, we create an object obj of the MyClass class and pass the argument "John" to the constructor.
+# The initialize method will be automatically called with the provided argument.
+
+difference between render and redirect
+render:
+# The render method is used to render a view template as the response to a user's request.
+# It is typically used when you want to display a view template, which can be an HTML page or another format like JSON or XML, to the user.
+# With render, the controller action continues executing after rendering the view template.
+
+Example:
+# def show
+#   @user = User.find(params[:id])
+#   render :show  # Renders the 'show' view template
+# end
+
+redirect:
+# The redirect method is used to redirect the user's request to a different URL.
+# It is typically used when you want to redirect the user to another page or action, often after performing a certain action or upon a certain condition.
+# With redirect, the controller action stops executing, and a new request is made to the specified URL.
+Exampple:
+# def create
+#   @user = User.new(user_params)
+#   if @user.save
+#     redirect_to root_path  # Redirects to the root URL
+#   else
+#     render :new  # Renders the 'new' view template again
+#   end
+# end
+
+# render is used to render a view template and display it to the user,
+# while redirect is used to redirect the user's request to a different URL.
+# The choice between render and redirect depends on the desired behavior and the flow of the application.
+
+
+differnce between _url and _path in ruby
+_url:
+# The _url suffix generates an absolute URL including the protocol, host, and port.
+# It provides a complete URL with the domain name, making it suitable for use in external links or when you need a full URL for a specific resource.
+# Example: root_url, user_url(@user)
+_path:
+# The _path suffix generates a relative path without the protocol, host, or port.
+# It provides a path that is relative to the current domain, making it suitable for internal links within your application.
+# Example: root_path, user_path(@user)
+
+# root_url would generate the absolute URL for the root path of your application, such as http://www.example.com/.
+# root_path would generate the relative path for the root, which would be /.
+# user_url(@user) would generate the absolute URL for a specific user, such as http://www.example.com/users/1.
+# user_path(@user) would generate the relative path for the user, which would be /users/1.
+
+differnce between resources and resource in ruby
+resources:
+
+# The resources method is used to define multiple routes for a resource.
+# It sets up the standard RESTful routes for a resource, including routes for index, show, new, create, edit, update, and destroy actions.
+# resources :users
+# GET    /users        - index # this is present here
+# GET    /users/new    - new
+# POST   /users        - create
+# GET    /users/:id    - show
+# GET    /users/:id/edit - edit
+# PATCH  /users/:id    - update
+# DELETE /users/:id    - destroy
+
+resource:
+# The resource method is used to define a single route for a resource.
+# It sets up routes for the show, new, create, edit, update, and destroy actions,
+but it does not include the index action.
+# resource :profile
+# GET    /profile        - show
+# GET    /profile/new    - new
+# POST   /profile        - create
+# GET    /profile/edit   - edit
+# PATCH  /profile        - update
+# DELETE /profile        - destroy
+
+
+Can you tell me the three levels of method access control for classes and modules? What do they imply about the method? with example
+Public:
+# Public methods can be accessed from anywhere, both within and outside the class or module.
+# Public methods define the interface of the class or module, and they are intended to be used by other parts of the code.
+# Public methods can be called by any object without any restrictions.
+# class MyClass
+#   def public_method
+#     puts "This is a public method"
+#   end
+# end
+# #
+#  => :hello
+# 3.0.0 :006 > obj = Myclass.new
+#  => #<Myclass:0x000055b75b8d2a80>
+# 3.0.0 :007 > obj.hello
+# hi
+
+Protected:
+# Protected methods can only be accessed by other instances of the same class or its subclasses.
+# Protected methods are intended to be used for internal communication within a class hierarchy.
+# Protected methods cannot be called from outside the class or module in which they are defined.
+
+class MyClass
+  def protected_method
+    puts "This is a protected method"
+  end
+
+  protected :protected_method
+end
+#
+my_object = MyClass.new
+my_object.protected_method
+
+Private:
+# private_method is a private method within the MyClass class.
+# It can only be called from within the class itself.
+# In the public_method, the private method is invoked without an explicit receiver.
+# class MyClass
+#   def public_method
+#     puts "This is a public method"
+#     private_method
+#   end
+#
+#   private
+#
+#   def private_method
+#     puts "This is a private method"
+#   end
+# end
+#
+# my_object = MyClass.new
+# my_object.public_method
+# This is a public method
+# This is a private method
+
+ ways to invoke a method in ruby.
+
+ # Method Invocation using an Object:
+ # The most common way to invoke a method is by using an object and the dot (.) operator to call the method on that object.
+ # 3.0.0 :051 > class Myclass
+ # 3.0.0 :052 >   def my_method
+ # 3.0.0 :053 >     puts "hello world!"
+ # 3.0.0 :054 >   end
+ # 3.0.0 :055 > end
+ #  => :my_method
+ # 3.0.0 :056 > obj = Myclass.new
+ #  => #<Myclass:0x000055f694125d78>
+ # 3.0.0 :057 > obj.my_method
+ # hello world!
+
+ In this example, the my_method is invoked on the obj object using the dot operator (obj.my_method).
+
+Method Invocation using Self:
+# The self keyword in Ruby refers to the current object or instance within the context.
+# You can invoke a method using self as an implicit receiver, especially when there is no ambiguity between local variables and methods.
+# It invokes the my_method using self as an implicit receiver.
+#
+# 3.0.0 :058 > class Myclass
+# 3.0.0 :059 >   def my_method
+# 3.0.0 :060 >     puts "hi this is the my method"
+# 3.0.0 :061 >   end
+# 3.0.0 :062 >   def invoke_method
+# 3.0.0 :063 >     my_method
+# 3.0.0 :064 >   end
+# 3.0.0 :065 > end
+#  => :invoke_method
+# 3.0.0 :066 > obj = Myclass.new
+#  => #<Myclass:0x000055f694a10cf8>
+# 3.0.0 :067 > obj.invoke_method
+# hi this is the my method
+#  => nil
+
+Method Invocation using the send Method:
+The send method in Ruby allows you to dynamically invoke a method by name, even if the method is private or protected.
+#
+# 3.0.0 :068 > class Myclass
+# 3.0.0 :069 >   private
+# 3.0.0 :070 >   def my_private_method
+# 3.0.0 :071 >     puts "hi this is the private method"
+# 3.0.0 :072 >   end
+# 3.0.0 :073 > end
+#  => :my_private_method
+# 3.0.0 :074 > obj = Myclass.new
+#  => #<Myclass:0x000055f694a01578>
+# 3.0.0 :075 > obj.send(:my_private_method)
+# hi this is the private method
+ => nil
+
+Method Invocation using the public_send Method:
+# The public_send method in Ruby is similar to send, but it only allows the invocation of public methods.
+# It raises an error if the method is private or protected.
+# 3.0.0 :088 > class Myclass
+# 3.0.0 :089 >   protected
+# 3.0.0 :090 >   def protected_method
+# 3.0.0 :091 >     puts "hi this is the protected method"
+# 3.0.0 :092 >   end
+# 3.0.0 :093 > end
+#  => :protected_method
+# 3.0.0 :094 > obj = Myclass.new
+#  => #<Myclass:0x000055f6946c8c80>
+# 3.0.0 :095 > obj.public_send(:protected_methods)
+#  => [:protected_method, :my_obj_method]
+# 3.0.0 :096 >
+
+
+What is duck typing:
+https://www.educative.io/answers/how-to-implement-polymorphism-using-duck-typing-in-ruby
+
+Difference betwwen load and require with example rails
+
+# require in Rails:
+# In Rails, the require method is commonly used to include external libraries and gems within the application's codebase. It allows you to use the functionality provided by those libraries.
+#
+# Copy code
+# # In a Rails controller or model file
+# require 'json'
+#
+# class MyController < ApplicationController
+#   def index
+#     # Use JSON-related functionality here
+#   end
+# end
+#
+# In Rails, the load method is less commonly used compared to require. However, you can still use it to execute the content of a Ruby file within the context of a Rails application.
+#
+# load Rails.root.join('config', 'custom_config.rb')
+
+class libraries in ruby
+# class libraries refer to collections of related classes and modules that provide reusable functionality for specific domains or tasks.
+# These libraries are often bundled as gems, which are packages containing code and other resources.
+
+# ActiveRecord: ActiveRecord is a class library that provides an object-relational mapping (ORM) framework for database interactions in Ruby on Rails.
+# It offers a set of classes and methods to simplify database queries, data manipulation, and relationships between objects.
+#
+# ActiveSupport: ActiveSupport is an extension to the Ruby core library that provides additional utility classes and methods.
+# It includes functionalities like string manipulation, date and time handling, file operations, caching, and more.
+# ActiveSupport is commonly used in Ruby on Rails applications.
+#
+# RSpec: RSpec is a behavior-driven development (BDD) framework for Ruby.
+# It provides a set of classes and methods to define and execute tests in a readable and expressive manner. RSpec allows you to write specifications for your code and validate its behavior.
+#
+# Nokogiri: Nokogiri is a class library for parsing and manipulating HTML and XML documents in Ruby. It provides a simple and powerful API for searching, traversing, and modifying document structures. Nokogiri is often used in web scraping, data extraction, and XML processing tasks.
+#
+# Devise: Devise is a flexible authentication solution for Ruby on Rails applications. It provides a set of classes and methods to handle user authentication, registration, password management, and session handling. Devise simplifies the implementation of common authentication features in Rails applications.
+
+
+naming convetion in ruby
+
+# Class and Module Names:
+# Use CamelCase for class and module names.
+# Begin class and module names with an uppercase letter.
+# Example: class MyClass, module MyModule
+# Method Names:
+#
+# Use snake_case for method names.
+# Begin method names with a lowercase letter or an underscore.
+# Use descriptive names that indicate the purpose or action of the method.
+# Example: def my_method, def calculate_total
+# Variable Names:
+#
+# Use snake_case for variable names.
+# Begin variable names with a lowercase letter or an underscore.
+# Use descriptive names that indicate the purpose or content of the variable.
+# Example: my_variable, total_amount
+# Constant Names:
+#
+# Use SCREAMING_SNAKE_CASE for constant names.
+# Begin constant names with an uppercase letter.
+# Constants are typically used for values that do not change and are shared across the application.
+# Example: MY_CONSTANT, PI
+# Predicate Methods (Boolean Methods):
+#
+# Append a question mark (?) at the end of the method name.
+# Predicate methods return a boolean value indicating a condition.
+# Example: def valid?, def empty?
+# Private and Protected Methods:
+#
+# Use a leading underscore (_) before the method name to indicate it is a private or protected method.
+# Example: def _private_method, protected def _protected_method
+
+differnce between class and module
+# Instantiation:
+# Classes can be instantiated to create objects, whereas modules cannot be instantiated directly. Objects are instances of classes and can have their own state and behavior.
+# Example: class MyClass; end allows creating instances of MyClass using MyClass.new.
+
+# Inheritance:
+# Classes support inheritance, allowing a class to inherit characteristics (methods and attributes) from another class. In Ruby, a class can only inherit from one superclass.
+# Modules, on the other hand, do not support inheritance. Instead, they facilitate mixins, which allow classes to incorporate methods and constants from multiple modules. A class can include multiple modules using the include keyword.
+# Example: class MyClass < ParentClass; end demonstrates inheritance, whereas module MyModule; end represents a module.
+
+# Namespace:
+# Both classes and modules provide a way to organize code and serve as a namespace to prevent naming conflicts.
+# Classes create their own namespace, encapsulating methods and constants within the class definition.
+# Modules also create a namespace, but they are typically used to group related methods, constants, and other modules. Modules cannot be instantiated, so they do not have their own instance variables.
+# Example: class MyClass; end creates a namespace for MyClass, while module MyModule; end creates a namespace for MyModule.
+
+# Mixins:
+# Modules are primarily used for mixins, which allow classes to share behavior across multiple class hierarchies.
+# Modules can be included in classes using the include keyword, enabling classes to inherit the methods and constants defined in the module.
+# This mixin functionality provides a way to achieve multiple inheritance-like behavior without the limitations of single inheritance.
+# Example: module MyModule; end can be included in a class using include MyModule.
+
+# Object Creation:
+# Classes are used to define the blueprint for creating objects. They encapsulate both state (instance variables) and behavior (methods).
+# Modules, being unable to be instantiated directly, are used to group related methods, constants, and mixins. They do not have their own state.
+
+
+Exception handling in ruby?
+
+# In Ruby, exceptions are used to handle errors and exceptional situations that occur during the execution of a program. When an exception is raised, it can be handled using begin, rescue, and ensure blocks. Here's how exception handling works in Ruby:
+#
+# Begin and Rescue Blocks:
+# The begin block is used to wrap the code that may raise an exception.
+# If an exception is raised within the begin block, the program flow is immediately transferred to the nearest rescue block.
+# The rescue block is responsible for handling the exception and executing alternative code.
+# You can have multiple rescue blocks to handle different types of exceptions or conditions.
+#
+# begin
+#   # Code that may raise an exception
+# rescue SomeException
+#   # Code to handle SomeException
+# rescue AnotherException => e
+#   # Code to handle AnotherException and access the exception object (e)
+# end
+#
+# Ensure Block:
+# The ensure block is optional and is used to define code that should be executed regardless of whether an exception occurred or not.
+# The code within the ensure block is executed after the begin block and any associated rescue blocks.
+# This block is commonly used to perform cleanup tasks or ensure certain actions are taken regardless of the exception.
+#
+# begin
+#   # Code that may raise an exception
+# rescue SomeException
+#   # Code to handle SomeException
+# ensure
+#   # Code that always executes, regardless of exceptions
+# end
+#
+# Handling Specific Exception Types:
+# You can specify the type of exception to be rescued by mentioning the exception class after the rescue keyword.
+# If an exception of that type is raised, the associated rescue block will be executed.
+# If an exception occurs that is not caught by any rescue block, it will propagate up the call stack until it is either handled or causes the program to terminate.
+#
+# begin
+#   # Code that may raise an exception
+# rescue ArgumentError
+#   # Code to handle ArgumentError
+# rescue RuntimeError
+#   # Code to handle RuntimeError
+# end
+#
+# Raising Exceptions:
+# You can explicitly raise an exception using the raise keyword followed by an exception object or exception class.
+# This allows you to generate and handle custom exceptions when certain conditions are not met.
+#
+# if some_condition
+#   raise CustomException, "Error message"
+# end
+# By using begin, rescue, and ensure blocks, along with the ability to raise exceptions, you can effectively handle and manage errors and exceptional situations in your Ruby code.
+
+What is freezing in ruby?
+
+# In Ruby, freezing a string means making it immutable, preventing any modifications to its content. When a string is frozen, you cannot modify its characters, append or remove characters, or change its encoding. Freezing a string is useful when you want to ensure that its value remains constant throughout the program execution, protecting it from accidental modifications.
+#
+# Here's how you can freeze a string in Ruby:
+#
+# str = "Hello, World!"
+# str.freeze
+# In the above example, the freeze method is called on the string object str to make it immutable. Once a string is frozen, any attempt to modify it will raise a FrozenError.
+#
+#
+# str = "Hello, World!"
+# str.freeze
+#
+# str.upcase!  # Raises FrozenError: can't modify frozen String
+# You can also check if a string is frozen using the frozen? method, which returns true if the string is frozen and false otherwise:
+#
+# str = "Hello, World!"
+# str.frozen?  # false
+#
+# str.freeze
+# str.frozen?  # true
+
+why we used migration in rails
+# Migrations in Ruby on Rails are used for managing changes to the database schema over time. They provide a convenient and reliable way to create, modify, and delete database tables, columns, and indexes. Migrations offer several benefits:
+#
+# Version Control: Migrations allow you to track and manage changes to the database schema in a version-controlled manner. Each migration file represents a discrete change, making it easy to roll back or reapply changes as needed. This helps in collaboration among team members and keeps the database schema in sync with the application codebase.
+#
+# Portability: Migrations provide a database-agnostic way to define the schema. Rails abstracts away the specific SQL dialects, allowing you to write database-independent migration code. This makes it easier to switch between different database systems without rewriting schema definitions.
+#
+# Database Schema Evolution: Migrations enable you to evolve the database schema over time. As your application requirements change, you can create new migrations to add or modify database tables, columns, or indexes. This allows for incremental updates to the schema without disrupting existing data or requiring manual database administration.
+#
+# Database Consistency: Migrations ensure that all developers and deployment environments have consistent database schemas. When working in a team or deploying to multiple environments, running migrations on each system ensures that the database structure is consistent across all instances.
+#
+# Rollbacks: Migrations support rolling back changes in case of errors or when you need to revert a specific migration. This makes it easier to recover from mistakes or to restore a previous state of the database schema.
+#
+# Seed Data: Migrations often include the ability to add initial seed data to the database. This allows you to populate the database with default or sample data, ensuring that the application has some initial data to work with.
+#
+# By using migrations, you can manage the evolution of your database schema in a controlled and systematic way, keeping it in sync with your application's codebase and making it easier to collaborate, deploy, and maintain the application over time.
+
+
+how we check the last migration pending
+
+# In Ruby on Rails, you can check if there are any pending migrations by using the following command:
+#
+#
+# rails db:migrate:status
+# Running this command will display a list of all migrations and their current status. If there are any pending migrations, they will be marked as "down" in the status output.
+#
+# For example, the output might look like this:
+#
+# database: my_app_development
+#
+#  Status   Migration ID    Migration Name
+# --------------------------------------------------
+#    up     20190601000000  Create users
+#    up     20190602000000  Add email to users
+#    down   20190603000000  Add age to users
+
+
+what are generator in ruby on rails
+
+# In Ruby on Rails, generators are command-line tools that help you quickly generate various components of your application, such as models, controllers, views, migrations, tests, and more. Generators automate repetitive tasks and provide a starting point for building different parts of your application.
+#
+# Rails provides a set of built-in generators, and you can also create your own custom generators to suit your specific needs. Here are some commonly used generators in Ruby on Rails:
+#
+# rails generate model: Generates a new model file along with a migration file to create the corresponding database table.
+#
+# rails generate controller: Creates a new controller file with associated views and test files.
+#
+# rails generate scaffold: Generates a complete set of resources, including a model, controller, views, and test files, to create a basic CRUD (Create, Read, Update, Delete) interface for a specific resource.
+#
+# rails generate migration: Generates a new migration file to add, modify, or remove database tables, columns, or indexes.
+#
+# rails generate migration: Generates a new migration file to add, modify, or remove database tables, columns, or indexes.
+#
+# rails generate scaffold: Generates a complete set of resources, including a model, controller, views, and test files, to create a basic CRUD (Create, Read, Update, Delete) interface for a specific resource.
+#
+# rails generate integration_test: Creates a new integration test file for testing multiple parts of your application together.
+#
+# rails generate helper: Generates a new helper file with reusable methods that can be used in views and controllers.
+#
+# These are just a few examples of the built-in generators available in Rails. Generators save time and effort by providing a starting point for creating different components of your application. They help you follow Rails conventions and can be customized to fit your specific requirements. You can run rails generate --help to see a complete list of available generators and their options.
+
+what is migration & how rake:db migrate command know how many migration is pending
+
+# In Ruby on Rails, a migration is a way to manage changes to the database schema. It allows you to create, modify, or delete database tables, columns, indexes, and other database structures in a structured and version-controlled manner. Migrations are written as Ruby files and use a DSL (Domain-Specific Language) provided by Rails to define the desired changes.
+#
+# By keeping track of the applied migrations in the schema_migrations table, Rails can determine which migrations are pending and execute them when you run the db:migrate command.
+
+what is csrf token
+# CSRF (Cross-Site Request Forgery) token is a security measure used to protect web applications against CSRF attacks. CSRF attacks occur when an attacker tricks a user's browser into making a malicious request on their behalf, often by exploiting the user's active session on a website.
+#
+# To mitigate CSRF attacks, web applications generate a unique CSRF token and include it as part of the HTML form or as a request header. The CSRF token is typically a random value that is associated with the user's session. When a form is submitted, the server checks the CSRF token to ensure that the request originated from the same website and was not forged by an attacker.
+#
+# In Ruby on Rails, the CSRF token is automatically generated and included in forms by default. When a Rails application generates an HTML form using the form_for or form_tag helper methods, it includes a hidden input field with the CSRF token. When the form is submitted, Rails checks the CSRF token value to protect against CSRF attacks.
+#
+# The CSRF token is stored in the session and is regenerated periodically or when the user logs in or out. This ensures that each form submission uses a unique CSRF token, making it difficult for an attacker to guess or reuse the token.
+#
+# Rails provides built-in protection against CSRF attacks through the protect_from_forgery method, which is automatically included in the base ApplicationController. This method enables CSRF protection for all controllers in the application by validating the CSRF token on non-GET requests.
+#
+# By including a CSRF token in forms and validating it on the server-side, Rails helps ensure that requests originate from legitimate sources and protects against CSRF attacks that could lead to unauthorized actions on behalf of users.
+
+
+explain scop of local, instance, class and global variable
+
+# In Ruby, variables have different scopes that determine where they can be accessed and how long they persist. Here's an explanation of the scopes of local, instance, class, and global variables:
+#
+# Local Variables:
+#
+# Scope: Local variables are declared within a method, block, or loop and are only accessible within that particular scope.
+# Lifetime: Local variables exist as long as the method, block, or loop is executing, and they are discarded once the scope is exited.
+#
+# def example_method
+#   local_variable = 10
+#   puts local_variable
+# end
+#
+# example_method # Output: 10
+# puts local_variable # Error: undefined local variable
+# Instance Variables:
+#
+# Scope: Instance variables are prefixed with @ and are accessible within an instance of a class. They are specific to each instance of the class.
+# Lifetime: Instance variables persist as long as the object (instance) of the class exists.
+#
+# class ExampleClass
+#   def initialize
+#     @instance_variable = 20
+#   end
+#
+#   def example_method
+#     puts @instance_variable
+#   end
+# end
+#
+# instance = ExampleClass.new
+# instance.example_method # Output: 20
+# Class Variables:
+#
+# Scope: Class variables are prefixed with @@ and are shared among all instances of a class and its subclasses.
+# Lifetime: Class variables persist throughout the lifespan of the program, and any changes made to them are visible to all instances of the class.
+#
+# class ExampleClass
+#   @@class_variable = 30
+#
+#   def self.example_method
+#     puts @@class_variable
+#   end
+# end
+#
+# ExampleClass.example_method # Output: 30
+# Global Variables:
+#
+# Scope: Global variables are prefixed with $ and can be accessed from anywhere in the program.
+# Lifetime: Global variables persist throughout the lifespan of the program, and they can be modified and accessed from any part of the code.
+#
+# $global_variable = 40
+#
+# def example_method
+#   puts $global_variable
+# end
+#
+# example_method # Output: 40
+# It's important to use variables within their appropriate scopes to ensure proper encapsulation and avoid unintended side effects. Local variables are preferred over global variables as they have a more limited scope and help maintain code clarity and maintainability. Instance variables are commonly used to store and share data within an instance of a class, while class variables are useful for sharing data among multiple instances of a class.
+
+Polymorphic association Ruby on Rails?
+
+# Polymorphic association is a concept in Ruby on Rails that allows a model to belong to more than one other model on a single association. It enables the association between two models to be flexible, accommodating multiple types of associated models.
+#
+# In a typical Rails application, associations are usually defined using foreign keys, where one model belongs to another model using a specific foreign key column. However, with polymorphic association, the association is defined using two columns: a foreign key column and a type column.
+#
+# Let's take an example to understand polymorphic association better. Suppose we have three models: Comment, Image, and Video. Both Image and Video can have comments. Traditionally, we might create separate associations between Comment and Image as well as between Comment and Video. However, with polymorphic association, we can create a single association between Comment and Commentable (a polymorphic association).
+#
+# To implement polymorphic association, we need to make the following changes:
+#
+# Modify the database schema:
+#
+# Add two columns to the comments table: commentable_id (integer) and commentable_type (string).
+# Update the models:
+#
+# Add the polymorphic association to the Comment model:
+#
+#
+# class Comment < ApplicationRecord
+#   belongs_to :commentable, polymorphic: true
+# end
+# Add the inverse association to the Image and Video models:
+#
+# ruby
+# Copy code
+# class Image < ApplicationRecord
+#   has_many :comments, as: :commentable
+# end
+#
+# class Video < ApplicationRecord
+#   has_many :comments, as: :commentable
+# end
+# With this setup, we can now create comments for both images and videos using the same Comment model. When creating a comment, we specify the associated object (image or video) and Rails will automatically populate the commentable_id and commentable_type columns in the comments table.
+#
+# For example, creating a comment for an image:
+#
+#
+# image = Image.find(1)
+# comment = image.comments.create(body: "Great image!")
+# Creating a comment for a video:
+#
+#
+# video = Video.find(1)
+# comment = video.comments.create(body: "Interesting video!")
+# Polymorphic association allows us to reuse the Comment model and its associations for multiple other models, providing flexibility and code reusability. It simplifies the database schema and eliminates the need for redundant associations.
+
+
+differnce between extend and include
+
+# In Ruby, both extend and include are used to mix in functionality from modules into classes. However, they differ in how the module's methods are added to the class and how they can be accessed.
+#
+# include:
+# Usage: include is used to mix in module methods as instance methods of a class.
+# Functionality: When a module is included in a class using include, the module's methods become available as instance methods of that class. Instances of the class can then invoke those methods.
+#
+#
+# module MyModule
+#   def hello
+#     puts "Hello!"
+#   end
+# end
+#
+# class MyClass
+#   include MyModule
+# end
+#
+# obj = MyClass.new
+# obj.hello # Output: Hello!
+#
+# extend:
+# Usage: extend is used to mix in module methods as class methods of a class.
+# Functionality: When a module is extended in a class using extend, the module's methods become available as class methods of that class. The class itself can invoke those methods, but instances of the class cannot.
+#
+#
+# module MyModule
+#   def hello
+#     puts "Hello!"
+#   end
+# end
+#
+# class MyClass
+#   extend MyModule
+# end
+#
+# MyClass.hello # Output: Hello!
+# obj = MyClass.new
+# obj.hello # Error: undefined method `hello' for #<MyClass:0x0000000000000000>
+# So, the key difference between include and extend is that include adds module methods as instance methods, while extend adds module methods as class methods. It determines whether the module's methods are accessible at the instance level or the class level.
+#
+# Both include and extend are powerful tools for code reuse and modularization in Ruby, allowing you to extend the functionality of classes with shared behaviors defined in modules. The choice between include and extend depends on whether you want the module's methods to be available at the instance level or the class level.
+
+
+how you will improve project performance
+# Improving project performance involves various strategies and optimizations that can be applied at different levels of your application stack. Here are some general approaches to improve project performance:
+#
+# 1. **Database Optimization:**
+#    - Optimize database queries by using appropriate indexes, avoiding N+1 query issues, and leveraging database-specific optimizations.
+#    - Use database query caching to reduce the load on the database.
+#    - Consider using database connection pooling to minimize the overhead of establishing new connections.
+#
+# 2. **Caching:**
+#    - Implement caching mechanisms to store frequently accessed data, such as fragment caching, page caching, or low-level caching with tools like Redis or Memcached.
+#    - Utilize caching strategies like memoization to avoid redundant computations.
+#
+# 3. **Optimized Code and Algorithms:**
+#    - Write efficient and optimized code by considering algorithmic complexity and performance implications.
+#    - Use efficient data structures and algorithms when processing large amounts of data.
+#    - Profile your code using tools like Ruby's built-in profiler or external tools to identify performance bottlenecks.
+#
+# 4. **Asset Optimization:**
+#    - Minify and compress JavaScript and CSS assets to reduce file sizes and decrease load times.
+#    - Use asset fingerprinting and content delivery networks (CDNs) to leverage caching and serve static assets efficiently.
+#
+# 5. **Load Balancing and Scaling:**
+#    - Employ load balancing techniques to distribute the workload across multiple servers or instances.
+#    - Use horizontal scaling by adding more servers or instances to handle increased traffic.
+#
+# 6. **Asynchronous Processing:**
+#    - Offload time-consuming or resource-intensive tasks to background jobs or queues using tools like Sidekiq, Resque, or Active Job with asynchronous adapters.
+#    - Use message brokers like RabbitMQ or Apache Kafka for decoupled and scalable processing.
+#
+# 7. **Front-end Optimization:**
+#    - Optimize front-end performance by reducing the number of HTTP requests, leveraging browser caching, and using techniques like lazy loading or asynchronous loading of resources.
+#    - Compress images and use appropriate image formats to minimize their size.
+#
+# 8. **Server Configuration:**
+#    - Fine-tune your server configuration, such as web server settings, database settings, and worker configurations, to optimize resource allocation and performance.
+#    - Enable server-level caching mechanisms like HTTP caching or reverse proxy caching.
+#
+# 9. **Monitoring and Profiling:**
+#    - Continuously monitor your application's performance using tools like New Relic, Scout, or custom monitoring solutions.
+#    - Profile your application to identify performance bottlenecks and optimize the critical parts of your code.
+#
+# Remember, performance optimization is an iterative process, and it's important to measure the impact of each optimization and prioritize based on the specific needs of your project. Regular profiling, load testing, and benchmarking will help you identify areas that need improvement and guide your optimization efforts.
+
+
+Differnt cases of rspec in ruby?
+# In RSpec, there are various ways to define and organize test cases. Here are some common conventions and approaches:
+# 1. **Lowercase vs. Uppercase Descriptions:**
+#    - By convention, RSpec test case descriptions are typically written in lowercase with underscores (_) as word separators.
+#    - For example:
+#      ```ruby
+#      describe 'my feature' do
+#        it 'performs a specific action' do
+#          # Test code goes here
+#        end
+#      end
+#      ```
+#
+# 2. **CamelCase Descriptions:**
+#    - RSpec allows you to use CamelCase for test case descriptions, although it is less common.
+#    - For example:
+#      ```ruby
+#      describe 'MyFeature' do
+#        it 'PerformsASpecificAction' do
+#          # Test code goes here
+#        end
+#      end
+#      ```
+#
+# 3. **Context Blocks:**
+#    - RSpec provides a `context` block, which allows you to group related test cases under a specific context or condition.
+#    - By convention, the description within a `context` block is often written in lowercase with underscores (_).
+#    - For example:
+#      ```ruby
+#      describe 'my feature' do
+#        context 'when a specific condition is met' do
+#          it 'performs a specific action' do
+#            # Test code goes here
+#          end
+#        end
+#      end
+#      ```
+#
+# 4. **RSpec Matchers:**
+#    - RSpec matchers are often written in lowercase with underscores (_) as word separators.
+#    - For example:
+#      ```ruby
+#      expect(result).to be_truthy
+#      expect(array).to include('value')
+#      ```
+#
+# 5. **RSpec Hooks:**
+#    - RSpec hooks, such as `before`, `after`, and `around`, are typically written in lowercase with underscores (_) as word separators.
+#    - For example:
+#      ```ruby
+#      RSpec.configure do |config|
+#        config.before(:each) do
+#          # Setup code goes here
+#        end
+#      end
+#      ```
+#
+# It's important to note that the conventions and styles mentioned above are not strict rules but rather common practices followed by the RSpec community. The most important aspect is to maintain consistency within your test suite to ensure readability and maintainability. Choose a naming convention that suits your project and team preferences, and stick to it throughout your tests.
+
+what is microservices
+
+# Microservices is an architectural style that structures an application as a collection of small, independent, and loosely coupled services. Each service in a microservices architecture is responsible for a specific business capability and can be developed, deployed, and scaled independently. These services communicate with each other through well-defined APIs.
+#
+# Here are some key characteristics of microservices:
+#
+# 1. **Service Independence:** Each microservice is self-contained and independent, with its own database and business logic. This allows teams to develop, test, and deploy services separately, enabling faster development cycles and flexibility in technology choices.
+#
+# 2. **Decentralized Data Management:** Microservices typically have their own dedicated database, either relational or NoSQL, which allows each service to choose the most appropriate data storage technology for its specific requirements. This avoids the complexities and dependencies of a single shared database.
+#
+# 3. **Communication via APIs:** Microservices communicate with each other through well-defined APIs, often using lightweight protocols such as REST or messaging systems like RabbitMQ or Apache Kafka. This enables loose coupling and allows services to evolve independently.
+#
+# 4. **Scalability and Resilience:** Each microservice can be scaled independently based on its specific needs, allowing efficient resource utilization. Additionally, failures or performance issues in one service do not affect the entire system, as other services can continue to function independently.
+#
+# 5. **Technology Heterogeneity:** Microservices allow different services to be developed using different technologies and programming languages, as long as they can communicate through agreed-upon APIs. This enables teams to choose the most suitable technology stack for their specific service requirements.
+#
+# 6. **Continuous Deployment and DevOps:** With microservices, it becomes easier to adopt continuous deployment practices and DevOps principles. Since each service can be deployed independently, updates and bug fixes can be rolled out more frequently and with reduced risk.
+#
+# 7. **Domain-Driven Design (DDD):** Microservices often align well with the principles of Domain-Driven Design, where each microservice corresponds to a specific bounded context within the business domain. This helps in better modeling and understanding of complex business domains.
+#
+# Microservices architecture is suitable for complex and large-scale applications where flexibility, scalability, and maintainability are crucial. However, it also introduces additional challenges such as managing inter-service communication, maintaining data consistency, and dealing with distributed systems complexities. Proper design, deployment, and monitoring strategies are essential for successful implementation of microservices.
+
+What is service and concern?
+# In the context of Ruby on Rails, a service and a concern are two different concepts:
+#
+# 1. **Service:** A service is a design pattern used to encapsulate a specific business logic or functionality that doesn't fit neatly into the responsibilities of a model, view, or controller. Services help to keep the codebase organized, maintainable, and focused on single responsibilities. They promote the concept of "fat models, skinny controllers" by extracting complex or reusable logic into separate service classes.
+#
+#    A service class typically represents a specific operation or action in your application and is responsible for performing the necessary tasks to fulfill that operation. It encapsulates the logic, interactions with models, external services, or APIs, and any other necessary operations.
+#
+#    Services can be used to handle tasks such as sending emails, performing complex calculations, integrating with third-party APIs, or any other application-specific functionality that doesn't fit into the traditional MVC pattern. By using services, you can achieve better separation of concerns and promote code reusability.
+#
+# 2. **Concern:** A concern, on the other hand, is a module that allows you to share reusable code across multiple Ruby on Rails classes, such as models or controllers. Concerns are essentially a way to extract common behavior and avoid code duplication.
+#
+#    Concerns are typically defined as modules and can contain methods, callbacks, validations, or any other code that needs to be shared among multiple classes. By including a concern in a class, you inherit its functionality, allowing you to reuse the same code in different contexts.
+#
+#    Concerns are useful for grouping related functionality, reducing code duplication, and improving code organization. They provide a way to modularize and share code without the need for inheritance or complex inheritance hierarchies.
+#
+# To summarize, services are used to encapsulate specific business logic or functionality that doesn't fit within the traditional MVC pattern,
+ # while concerns are used to share reusable code across multiple classes, promoting code reusability and reducing duplication. Both services and concerns contribute to better code organization, separation of concerns, and maintainability in Ruby on Rails applications.
+
+Delayed job and sidekiq
+
+# Delayed Job and Sidekiq are both popular background job processing libraries in Ruby on Rails. They provide a way to execute time-consuming tasks asynchronously in the background, freeing up the main application thread to handle other requests.
+#
+# **Delayed Job:**
+# Delayed Job is a simple and straightforward background job processing library for Ruby on Rails. It uses the database as a queue to store and retrieve jobs. When a job is enqueued, it is saved to the database, and a separate worker process periodically checks for new jobs and executes them.
+#
+# Delayed Job is easy to set up and works well for simpler job processing needs. It integrates seamlessly with ActiveRecord, and its simplicity makes it a good choice for smaller applications or projects with straightforward requirements.
+#
+# **Sidekiq:**
+# Sidekiq, on the other hand, is a more powerful and feature-rich background job processing library. It uses Redis as a backend to store and process jobs. Sidekiq leverages multi-threading to process multiple jobs concurrently, leading to higher performance and throughput compared to Delayed Job.
+#
+# Sidekiq provides additional features such as job retries, scheduled jobs, job prioritization, and support for multiple queues. It also includes a web interface for monitoring and managing jobs.
+#
+# Sidekiq is widely used in production environments and is suitable for applications with higher job processing demands, complex workflows, or specific requirements around job prioritization and scheduling.
+#
+# **Choosing Between Delayed Job and Sidekiq:**
+# When deciding between Delayed Job and Sidekiq, consider the following factors:
+#
+# 1. **Complexity of the Application:** Delayed Job is simpler and easier to set up, making it a good choice for smaller or less complex applications. Sidekiq provides more advanced features and higher performance, making it suitable for larger or more demanding applications.
+#
+# 2. **Performance Requirements:** Sidekiq's multi-threading capabilities allow for higher job processing throughput, making it more suitable for applications with high job volumes or time-sensitive processing needs.
+#
+# 3. **Features and Flexibility:** Sidekiq offers additional features like retries, scheduling, and prioritization, which may be necessary depending on your application's requirements. Delayed Job provides a simpler and more basic feature set.
+#
+# 4. **Infrastructure Dependencies:** Sidekiq requires a Redis server as a backend, which adds an additional infrastructure dependency. Delayed Job uses the database as a queue, which may be more convenient if you're already using a relational database.
+#
+# Ultimately, the choice between Delayed Job and Sidekiq depends on your specific application's needs, complexity, performance requirements, and the features you require. Both libraries have their strengths and are widely used in the Ruby on Rails ecosystem, so consider your project's requirements and select the one that best fits your use case.
+
+
+Capistarno ngnix settings
+
+# To configure Capistrano with Nginx for deploying a Ruby on Rails application, you'll need to perform the following steps:
+#
+# 1. **Install Capistrano:**
+#    Install the Capistrano gem by adding it to your Gemfile and running `bundle install`. Make sure you have Capistrano and Capistrano-Rails gems included.
+#
+# 2. **Set up Capistrano Configuration:**
+#    Generate the Capistrano configuration files by running `cap install`. This will create a `config/deploy.rb` file and a `config/deploy/` directory with deployment stage-specific files.
+#
+# 3. **Configure Deployment Settings:**
+#    Edit the `config/deploy.rb` file and specify the necessary deployment settings, such as the repository URL, branch, deploy directory, and server roles. Set the appropriate values for your application.
+#
+# 4. **Configure Nginx Server Block:**
+#    On the server where you'll deploy your application, configure an Nginx server block. Create a new Nginx configuration file under `/etc/nginx/sites-available/` (e.g., `myapp.conf`) and add the following basic configuration:
+#
+#    ```nginx
+#    server {
+#        listen 80;
+#        server_name your_domain.com;
+#        root /path/to/your/app/public;
+#
+#        location / {
+#            try_files $uri @app;
+#        }
+#
+#        location @app {
+#            proxy_pass http://localhost:3000;
+#            proxy_set_header Host $host;
+#            proxy_set_header X-Real-IP $remote_addr;
+#            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+#            proxy_set_header X-Forwarded-Proto $scheme;
+#        }
+#    }
+#    ```
+#
+#    Adjust the `server_name` and `root` directives according to your application's domain and deployment directory.
+#
+# 5. **Enable Nginx Server Block:**
+#    Create a symbolic link to enable the server block by running the following command:
+#
+#    ```bash
+#    sudo ln -s /etc/nginx/sites-available/myapp.conf /etc/nginx/sites-enabled/
+#    ```
+#
+#    If you have an existing default configuration in `/etc/nginx/sites-enabled/default`, you may want to remove or disable it.
+#
+# 6. **Deploy the Application:**
+#    Ensure that your server is properly configured with SSH access, and add the server details to your Capistrano configuration files. Then, run the following command to deploy your application:
+#
+#    ```bash
+#    cap production deploy
+#    ```
+#
+#    Capistrano will handle the deployment process, including pulling the latest code from the repository, running migrations, and restarting the application.
+#
+# 7. **Start Nginx:**
+#    After the deployment is complete, restart Nginx to make your application accessible:
+#
+#    ```bash
+#    sudo service nginx restart
+#    ```
+#
+#    Nginx will now serve your Ruby on Rails application through the configured server block.
+#
+# These steps provide a basic setup for deploying a Ruby on Rails application using Capistrano and Nginx. Depending on your application's specific requirements, you may need to customize the configuration further. Additionally, consider configuring SSL certificates and other optimizations for your Nginx setup based on your application's needs.
+
+
+Differnce between put vs PATCH
+# In the context of HTTP methods used in web development, "PUT" and "PATCH" are two distinct methods with different purposes:
+#
+# 1. **PUT Method:**
+#    The PUT method is used to update an existing resource or replace it entirely with a new representation. When using the PUT method, the entire resource representation is sent in the request payload, including any fields that haven't changed. The server replaces the existing resource with the provided representation.
+#
+#    In a RESTful API context, the PUT method is typically used to update a resource by specifying its complete state. For example, if you have an endpoint `/users/:id` and you send a PUT request to that endpoint with the updated user data, it should replace the existing user with the new data.
+#
+# 2. **PATCH Method:**
+#    The PATCH method is used to partially update an existing resource. It allows you to send only the specific fields that need to be updated, rather than sending the entire resource representation. The server applies the provided changes to the existing resource, leaving any unchanged fields intact.
+#
+#    Unlike the PUT method, which replaces the entire resource, the PATCH method is more focused on modifying specific fields or properties of a resource. It provides a way to perform partial updates and is useful when you want to avoid sending unnecessary data.
+#
+#    For example, if you have an endpoint `/users/:id` and you send a PATCH request with the updated user data containing only the fields that have changed, the server should apply those changes to the existing user without affecting the unchanged fields.
+#
+# To summarize:
+# - Use the PUT method when you want to completely replace a resource with a new representation.
+# - Use the PATCH method when you want to partially update a resource, modifying only the specific fields that have changed.
+#
+# The choice between PUT and PATCH depends on the desired behavior and the requirements of your application. If you have complete representation of the resource and want to replace it entirely, use PUT. If you want to perform partial updates, use PATCH.
+
+
+diffrence between delete and destroy
+
+# In the context of Ruby on Rails and ActiveRecord, there is a difference between the `delete` and `destroy` methods when working with database records:
+#
+# 1. **delete:**
+#    The `delete` method is a low-level method that directly removes a record from the database without invoking any callbacks or validations defined on the model. It performs a direct SQL DELETE operation on the table, bypassing any ActiveRecord functionality.
+#
+#    When you use `delete`, the record is immediately removed from the database without any additional operations or considerations. This can be useful in certain scenarios where you need to quickly delete a record without triggering callbacks or validations.
+#
+#    Example:
+#    ```ruby
+#    user = User.find(1)
+#    user.delete
+#    ```
+#
+# 2. **destroy:**
+#    The `destroy` method is a higher-level method that triggers ActiveRecord callbacks and validations before deleting the record. It ensures that any associated models or dependent records are also destroyed or updated accordingly based on your model relationships and configurations.
+#
+#    When you use `destroy`, the record goes through the typical ActiveRecord lifecycle callbacks, such as `before_destroy` and `after_destroy`, allowing you to perform any necessary cleanup or additional operations.
+#
+#    Example:
+#    ```ruby
+#    user = User.find(1)
+#    user.destroy
+#    ```
+#
+# The key difference between `delete` and `destroy` is that `delete` directly performs the deletion in the database without triggering callbacks or validations, while `destroy` goes through the ActiveRecord lifecycle, allowing you to perform any necessary cleanup or associated operations.
+#
+# In most cases, it is recommended to use the `destroy` method, as it ensures that all appropriate callbacks and validations are executed, providing a safer and more consistent deletion process. However, there may be scenarios where `delete` is more appropriate if you need to quickly delete a record without invoking any callbacks or validations.
+
+
+callback and filter difference
+
+# In the context of Ruby on Rails, both callbacks and filters are mechanisms provided by ActiveRecord to add custom behavior to models and controllers, respectively. While they serve similar purposes of injecting custom logic at specific points, there are some differences between callbacks and filters:
+#
+# **Callbacks (ActiveRecord):**
+# Callbacks in ActiveRecord are hooks that allow you to add custom code to be executed at specific points in the lifecycle of a model. They are defined within the model class and are triggered automatically in response to certain events or actions. Callbacks provide a way to add logic before or after database operations or certain lifecycle events of a model.
+#
+# Some common callbacks in ActiveRecord include `before_save`, `after_create`, `before_validation`, etc. By defining callback methods in your model, you can specify custom code to be executed at different stages of the model's lifecycle.
+#
+# For example, you can define a `before_save` callback that automatically sets a timestamp field before saving a record:
+#
+# ```ruby
+# class Article < ApplicationRecord
+#   before_save :set_published_at
+#
+#   private
+#
+#   def set_published_at
+#     self.published_at = Time.now if published? && published_at.nil?
+#   end
+# end
+# ```
+#
+# In this example, the `set_published_at` method is automatically invoked before saving an article, ensuring that the `published_at` field is set if the article is being published for the first time.
+#
+# **Filters (Action Controller):**
+# Filters, on the other hand, are used in ActionController (controllers) to add custom code that runs before, after, or around controller actions. They allow you to modify the behavior of controller actions, such as performing authentication, authorization, or other pre- or post-processing tasks.
+#
+# Filters can be defined at different levels, including the controller level, individual action level, or as before/after actions in a module. They can be used to control access to actions, modify parameters, handle exceptions, or perform any other custom processing.
+#
+# For example, you can define a `before_action` filter in a controller to require authentication before accessing certain actions:
+#
+# ```ruby
+# class UsersController < ApplicationController
+#   before_action :authenticate_user, only: [:edit, :update]
+#
+#   def edit
+#     # Edit action logic
+#   end
+#
+#   def update
+#     # Update action logic
+#   end
+#
+#   private
+#
+#   def authenticate_user
+#     redirect_to login_path unless current_user
+#   end
+# end
+# ```
+
+# In this example, the `authenticate_user` method is called automatically before the `edit` and `update` actions, ensuring that the user is authenticated before accessing those actions.
+#
+# **Summary:**
+# In summary, the main differences between callbacks and filters are:
+#
+# - Callbacks are used in ActiveRecord models and are triggered at specific points in the model's lifecycle, while filters are used in ActionController controllers to modify the behavior of controller actions.
+# - Callbacks are defined within the model class, whereas filters are defined within the controller class.
+# - Callbacks are specific to ActiveRecord and work with model lifecycle events, while filters are specific to ActionController and work with controller actions.
+# - Callbacks are focused on model-level operations, while filters are focused on controller-level operations.
+#
+# Both callbacks and filters provide powerful mechanisms for adding custom logic in specific contexts, allowing you to extend the default behavior of ActiveRecord models and ActionController controllers.
+
+what will return create method and save method
+
+# In Ruby on Rails, the `create` and `save` methods are used to persist records in the database. They have different return values:
+#
+# 1. **`create`:**
+#    The `create` method is a convenience method provided by ActiveRecord that combines the steps of instantiating a new object and saving it in one operation. It returns an instance of the model if the record is successfully created, or it returns `false` if there are validation errors preventing the record from being saved.
+#
+#    Example:
+#    ```ruby
+#    user = User.create(name: 'John Doe', email: 'john@example.com')
+#    if user
+#      # Record was created successfully
+#    else
+#      # Handle validation errors
+#    end
+#    ```
+#
+#    If the record is successfully created, the `create` method returns an instance of the model object. This allows you to work with the newly created object directly.
+#
+# 2. **`save`:**
+#    The `save` method is used to save an existing record or create a new record in the database. It returns `true` if the record is successfully saved, or it returns `false` if there are validation errors preventing the record from being saved.
+#
+#    Example:
+#    ```ruby
+#    user = User.new(name: 'John Doe', email: 'john@example.com')
+#    if user.save
+#      # Record was saved successfully
+#    else
+#      # Handle validation errors
+#    end
+#    ```
+#
+#    If the record is successfully saved, the `save` method returns `true`. This indicates that the record was persisted in the database. If there are validation errors, `save` will return `false`, and you can handle the validation errors accordingly.
+#
+# It's important to note that both `create` and `save` methods trigger validations defined on the model. If there are validation errors, the methods will return `false`, indicating that the record was not saved.
+#
+# In summary, the `create` method returns an instance of the model if the record is successfully created, or `false` if there are validation errors. The `save` method returns `true` if the record is successfully saved, or `false` if there are validation errors.
+
+What is orm?
+
+# ORM stands for Object-Relational Mapping. It is a programming technique used to bridge the gap between an object-oriented programming language (like Ruby) and a relational database system (like MySQL, PostgreSQL, or SQLite).
+#
+# In traditional software development, data is typically stored and managed in relational databases, where data is organized into tables with rows and columns. On the other hand, object-oriented programming languages deal with data as objects that have properties and behaviors.
+#
+# ORM frameworks, such as ActiveRecord in Ruby on Rails, provide a way to interact with the database using object-oriented principles. They map database tables to classes and rows to objects, allowing developers to work with data in a more intuitive and object-oriented manner.
+#
+# Key features and benefits of using an ORM include:
+#
+# 1. **Abstraction of Database Details:** ORM abstracts away the low-level details of working with a specific database system. Developers can interact with the database using familiar object-oriented methods and syntax without having to write complex SQL queries.
+#
+# 2. **Object-Relational Mapping:** ORM frameworks provide mapping mechanisms to define how database tables and columns relate to object classes and attributes. This mapping enables seamless conversion between objects and database records.
+#
+# 3. **CRUD Operations:** ORM frameworks provide methods and APIs to perform common database operations, such as creating, reading, updating, and deleting records (CRUD operations). These operations can be performed using intuitive and expressive syntax.
+#
+# 4. **Data Validation and Type Conversion:** ORM frameworks often include built-in validation mechanisms to ensure data integrity and enforce data type constraints. They handle type conversions between database types and object types transparently.
+#
+# 5. **Querying and Relationship Management:** ORM frameworks offer powerful querying capabilities, allowing developers to perform complex database queries using object-oriented syntax. They also handle relationships between database tables, such as one-to-one, one-to-many, and many-to-many, making it easier to manage and navigate data relationships.
+#
+# By using an ORM, developers can focus more on the application's business logic and domain-specific code rather than dealing with the intricacies of database operations. It promotes code reusability, maintainability, and improves developer productivity by abstracting away the complexities of interacting with the database.
+
+
+how to show image as private using s3 bucket url
+# To show an image as private using an S3 bucket URL, you can utilize the access control features provided by Amazon S3. By default, objects stored in an S3 bucket are private, meaning they are not accessible publicly. To control access to the image, you need to generate a pre-signed URL with limited access permissions and use that URL to display the image.
+#
+# Here's a step-by-step guide on how to achieve this:
+#
+# 1. **Configure S3 Bucket Permissions:**
+#    Ensure that your S3 bucket is configured to store objects privately by default. This is the default behavior, but it's a good practice to double-check the bucket permissions to avoid any accidental public access.
+#
+# 2. **Generate a Pre-signed URL:**
+#    In your Ruby on Rails application, you can use the `aws-sdk-s3` gem to interact with your S3 bucket. To generate a pre-signed URL with limited access permissions, you can use the following code:
+#
+#    ```ruby
+#    require 'aws-sdk-s3'
+#
+#    def show_private_image
+#      s3 = Aws::S3::Resource.new(region: 'your_region', credentials: Aws::Credentials.new('access_key', 'secret_key'))
+#      bucket = s3.bucket('your_bucket')
+#
+#      # Specify the object key for the private image
+#      object_key = 'path/to/private_image.jpg'
+#
+#      # Generate a pre-signed URL with limited access time (e.g., 1 hour)
+#      presigned_url = bucket.object(object_key).presigned_url(:get, expires_in: 3600)
+#
+#      # Pass the presigned_url to your view template to display the image
+#      render json: { image_url: presigned_url }
+#    end
+#    ```
+#
+#    In the above code, replace `'your_region'` with the appropriate AWS region, `'access_key'` and `'secret_key'` with your AWS access key and secret key, and `'path/to/private_image.jpg'` with the actual object key of your private image.
+#
+# 3. **Display the Image:**
+#    In your view template, you can use the generated pre-signed URL to display the private image. For example, if you're working with an HTML template, you can use an `<img>` tag with the `src` attribute set to the pre-signed URL:
+#
+#    ```html
+#    <img src="<%= @image_url %>" alt="Private Image">
+#    ```
+#
+#    In this example, `@image_url` should be the variable that contains the pre-signed URL obtained in the controller.
+#
+# By following the above steps, you can securely display the private image using the pre-signed URL, which grants temporary access with restricted permissions. After the specified expiration time, the URL will no longer be valid, ensuring the image remains private.
+
+
+how to integrate apis with example
+# Sure! Let's walk through an example of integrating an API in a Ruby on Rails application using the GitHub API. We'll retrieve a user's repositories and display them in a view.
+#
+# 1. **Choose the API:**
+#    We'll use the GitHub API to retrieve a user's repositories. This API allows us to make requests to access GitHub user data.
+#
+# 2. **Install HTTP Client Gem:**
+#    In this example, we'll use the `httparty` gem for making HTTP requests. Add it to your Gemfile and run `bundle install` to install it.
+#
+# 3. **Create API Credentials:**
+#    GitHub's API doesn't require explicit credentials for public data access. However, you can set up an access token if you want to access private repositories or increase rate limits. Refer to GitHub's documentation for generating an access token.
+#
+# 4. **Implement API Integration:**
+#    Create a new service class, `GithubService`, in `app/services/github_service.rb`. This class will handle the API integration logic.
+#
+#    ```ruby
+#    # app/services/github_service.rb
+#    class GithubService
+#      include HTTParty
+#      base_uri 'https://api.github.com'
+#
+#      def initialize(access_token = nil)
+#        @access_token = access_token
+#      end
+#
+#      def fetch_repositories(username)
+#        options = { headers: headers }
+#        response = self.class.get("/users/#{username}/repos", options)
+#
+#        if response.success?
+#          response.parsed_response
+#        else
+#          raise "Error retrieving repositories: #{response.code}"
+#        end
+#      end
+#
+#      private
+#
+#      def headers
+#        if @access_token
+#          { 'Authorization': "Bearer #{@access_token}" }
+#        else
+#          {}
+#        end
+#      end
+#    end
+#    ```
+#
+#    In the `GithubService` class, we use `HTTParty` to make the HTTP request to the GitHub API. The `fetch_repositories` method fetches the repositories for a given username. It sets the appropriate headers, including the access token if provided.
+#
+# 5. **Integrate API in the Controller:**
+#    Next, we'll integrate the GitHub API in a controller to retrieve and display repositories. Let's assume we have a `UsersController` with a `show` action.
+#
+#    ```ruby
+#    # app/controllers/users_controller.rb
+#    class UsersController < ApplicationController
+#      def show
+#        @username = params[:username]
+#        @repositories = github_service.fetch_repositories(@username)
+#      rescue => e
+#        @error_message = e.message
+#      end
+#
+#      private
+#
+#      def github_service
+#        GithubService.new
+#      end
+#    end
+#    ```
+#
+#    In the `UsersController`, we call `github_service.fetch_repositories` to retrieve the repositories for the specified username. If any error occurs, we capture the error message in `@error_message`.
+#
+# 6. **Display Data in a View:**
+#    Create a view template, `show.html.erb`, to display the retrieved repositories.
+#
+#    ```html
+#    <!-- app/views/users/show.html.erb -->
+#    <h1>Repositories for <%= @username %></h1>
+#
+#    <% if @repositories %>
+#      <ul>
+#        <% @repositories.each do |repo| %>
+#          <li><%= repo['name'] %></li>
+#        <% end %>
+#      </ul>
+#    <% elsif @error_message %>
+#      <p><%= @error_message %></p>
+#    <% else %>
+#      <p>No repositories found.</p>
+#    <% end %>
+#    ```
+#
+#    In the view, we iterate over `@repositories` and display the repository names. If there are no repositories or an error occurs, appropriate messages are displayed.
+#
+# 7. **Test API Integration:**
+#    Write tests to
+
+scope variable
+
+# In Ruby on Rails, a scope is a method that can be defined on a model class to encapsulate a specific database query or a set of conditions. Scopes allow you to define reusable query fragments that can be chained together to build complex queries.
+#
+# A scope is defined using the `scope` class method within a model class. It takes a name and a block that defines the conditions or query for the scope. Here's an example:
+#
+# ```ruby
+# class Product < ApplicationRecord
+#   scope :published, -> { where(published: true) }
+#   scope :cheap, -> { where('price < ?', 100) }
+#   scope :popular, -> { order(views: :desc).limit(10) }
+# end
+# ```
+#
+# In this example, we have defined three scopes on the `Product` model: `published`, `cheap`, and `popular`.
+#
+# - The `published` scope returns products that have `published` set to `true`.
+# - The `cheap` scope returns products with a price lower than 100.
+# - The `popular` scope returns the top 10 products ordered by views.
+#
+# Scopes can be chained together to create more complex queries. For example:
+#
+# ```ruby
+# Product.published.cheap.popular
+# ```
+#
+# This will return the top 10 popular products that are published and have a price lower than 100.
+#
+# Scopes are useful for keeping your models clean and DRY (Don't Repeat Yourself). They provide a way to encapsulate commonly used queries and make them easily accessible and reusable throughout your application.
+#
+# Note that scopes are evaluated lazily, which means they are not executed until the query is actually performed (e.g., when calling `all`, `first`, or iterating over the results). This allows you to chain multiple scopes together and compose complex queries efficiently.
+#
+# Scopes provide a convenient way to define and reuse query conditions within your models, making your code more expressive and maintainable.
+
+
+What is callbacks
+# In Ruby on Rails, a callback is a method that is invoked at specific points during the lifecycle of an object. Callbacks allow you to execute custom code before or after certain events, such as object creation, saving, updating, or deletion. They provide hooks for extending and customizing the behavior of your models.
+#
+# Rails provides a set of predefined callbacks that you can use, but you can also define your own custom callbacks. The predefined callbacks are divided into two groups:
+#
+# 1. **Lifecycle Callbacks:**
+#    These callbacks are triggered at various stages of an object's lifecycle. Some common lifecycle callbacks include `before_validation`, `after_validation`, `before_save`, `after_save`, `before_create`, `after_create`, `before_update`, and `after_update`. These callbacks allow you to perform operations before or after validations, saving, creating, or updating an object.
+#
+#    ```ruby
+#    class User < ApplicationRecord
+#      before_validation :normalize_email
+#      after_save :send_confirmation_email
+#
+#      private
+#
+#      def normalize_email
+#        self.email = email.downcase.strip
+#      end
+#
+#      def send_confirmation_email
+#        # Code to send confirmation email
+#      end
+#    end
+#    ```
+#
+#    In this example, the `normalize_email` method is called before the object is validated, ensuring that the email is normalized before any validation checks are performed. The `send_confirmation_email` method is called after the object is saved, triggering the sending of a confirmation email.
+#
+# 2. **Association Callbacks:**
+#    These callbacks are associated with the lifecycle events of associations between objects. For example, you can use `before_add`, `after_add`, `before_remove`, and `after_remove` callbacks to perform operations before or after adding or removing associated objects.
+#
+#    ```ruby
+#    class User < ApplicationRecord
+#      has_many :posts, before_add: :check_post_limit
+#
+#      private
+#
+#      def check_post_limit(post)
+#        if posts.count >= 5
+#          raise "Post limit reached for this user"
+#        end
+#      end
+#    end
+#    ```
+#
+#    In this example, the `check_post_limit` method is called before adding a new post to a user. It checks if the user has already reached the post limit and raises an exception if so.
+#
+# Callbacks provide a way to add custom behavior to your models at specific points in their lifecycle. They are powerful tools for extending and modifying the default behavior of your objects, allowing you to perform additional actions or validations as needed. However, it's important to use callbacks judiciously and understand their impact on the flow and performance of your application.
+
+
+How many type of association in rails7
+# In Ruby on Rails, a model can have several types of association relationships with other models. These association relationships define how the models are related and how they interact with each other. The common types of association relationships in Rails are:
+#
+# 1. **Belongs To:**
+#    The "belongs to" association defines a one-to-one or one-to-many relationship between two models, where one model belongs to another. It is typically used when a model object is associated with a single object of another model.
+#
+#    Example:
+#    ```ruby
+#    class Comment < ApplicationRecord
+#      belongs_to :post
+#    end
+#
+#    class Post < ApplicationRecord
+#      has_many :comments
+#    end
+#    ```
+#    In this example, a comment belongs to a post, and a post can have multiple comments.
+#
+# 2. **Has One:**
+#    The "has one" association defines a one-to-one relationship between two models, where one model has a reference to another model. It is used when a model object has a single associated object.
+#
+#    Example:
+#    ```ruby
+#    class Profile < ApplicationRecord
+#      has_one :user
+#    end
+#
+#    class User < ApplicationRecord
+#      belongs_to :profile
+#    end
+#    ```
+#    In this example, a profile has one user, and a user belongs to a profile.
+#
+# 3. **Has Many:**
+#    The "has many" association defines a one-to-many relationship between two models, where one model has multiple instances of another model. It is used when a model object can have multiple associated objects.
+#
+#    Example:
+#    ```ruby
+#    class Author < ApplicationRecord
+#      has_many :books
+#    end
+#
+#    class Book < ApplicationRecord
+#      belongs_to :author
+#    end
+#    ```
+#    In this example, an author has many books, and a book belongs to an author.
+#
+# 4. **Has and Belongs To Many (HABTM):**
+#    The "has and belongs to many" association defines a many-to-many relationship between two models, where both models can have multiple instances of each other. It is used when a model object can have multiple associated objects, and those associated objects can also have multiple associations.
+#
+#    Example:
+#    ```ruby
+#    class User < ApplicationRecord
+#      has_and_belongs_to_many :groups
+#    end
+#
+#    class Group < ApplicationRecord
+#      has_and_belongs_to_many :users
+#    end
+#    ```
+#    In this example, a user can belong to multiple groups, and a group can have multiple users.
+#
+# These are the most common association relationships in Ruby on Rails, and they provide a powerful way to define and work with relationships between models. By utilizing these association methods, you can easily establish connections and navigate between associated objects in your application.
+
+
+Explain the MVC
+# Sure! The Model-View-Controller (MVC) is a software architectural pattern commonly used in Ruby on Rails applications. It provides a structured way to separate concerns and organize code.
+#
+# Here's an explanation of each component in the MVC pattern with an example:
+#
+# 1. **Model:**
+#    The model represents the data and the logic of the application. It encapsulates the business rules, interacts with the database, and performs operations on the data. In Rails, models are typically defined as Ruby classes that inherit from `ActiveRecord::Base`.
+#
+#    Example:
+#    ```ruby
+#    class User < ApplicationRecord
+#      validates :name, presence: true
+#    end
+#    ```
+#    In this example, the `User` model represents the data and behavior of a user in the application. It includes validation rules that ensure the presence of a name.
+#
+# 2. **View:**
+#    The view is responsible for presenting the data to the user. It defines how the user interface looks and interacts with the user. In Rails, views are typically implemented using HTML templates with embedded Ruby code (ERB) to dynamically generate the content.
+#
+#    Example (app/views/users/show.html.erb):
+#    ```html
+#    <h1>User Details</h1>
+#    <p>Name: <%= @user.name %></p>
+#    ```
+#    In this example, the view template displays the name of a user. The `@user` instance variable is passed from the controller to the view, allowing the view to access the user's data.
+#
+# 3. **Controller:**
+#    The controller acts as an intermediary between the model and the view. It receives requests from the user, processes them, and determines the appropriate response. It fetches data from the model, performs any necessary logic, and passes the data to the view for rendering.
+#
+#    Example:
+#    ```ruby
+#    class UsersController < ApplicationController
+#      def show
+#        @user = User.find(params[:id])
+#      end
+#    end
+#    ```
+#    In this example, the `UsersController` defines an action called `show` that retrieves a user based on the `id` parameter from the request. It assigns the user to the `@user` instance variable, which is then used by the corresponding view.
+#
+# The flow in Rails follows the pattern of a request being received by the controller, which invokes the appropriate action. The action interacts with the model to fetch or modify data, and then renders a view to generate the response. The result is sent back to the user's browser.
+#
+# By separating the responsibilities of each component, the MVC pattern promotes code reusability, modularity, and maintainability. It allows for easier testing, as each component can be tested independently. Additionally, the separation of concerns makes it easier for developers to collaborate and work on different parts of the application simultaneously.
+#
+# This is a simplified explanation of the Rails MVC pattern, and there are additional concepts and conventions that can be used to further enhance the structure and functionality of an application.
+
+
+naming convention
+
+# Naming conventions in Ruby on Rails help maintain consistency and readability in code. Here are some commonly followed naming conventions in Rails:
+#
+# 1. **Class and Module Names:**
+#    - Class names should be written in CamelCase, starting with an uppercase letter.
+#    - Module names should also be written in CamelCase, starting with an uppercase letter.
+#    - Pluralize model names when representing a collection of objects, and use the singular form when representing a single object.
+#
+#    Example:
+#    ```ruby
+#    class User
+#    end
+#
+#    module Admin
+#      class Dashboard
+#      end
+#    end
+#    ```
+#
+# 2. **File Names:**
+#    - Model files should be named in singular form and use snake_case.
+#    - Controller files should be named in plural form and use snake_case.
+#    - View files should match the corresponding action name in the controller and use snake_case.
+#
+#    Example:
+#    ```
+#    user.rb
+#    users_controller.rb
+#    show.html.erb
+#    ```
+#
+# 3. **Database Tables and Columns:**
+#    - Database table names should be in lowercase and use snake_case.
+#    - Table names should be pluralized.
+#    - Database column names should also be in lowercase and use snake_case.
+#
+#    Example:
+#    ```
+#    users (table name)
+#    id, name, email (column names)
+#    ```
+#
+# 4. **Routes and URLs:**
+#    - Route names should use snake_case.
+#    - Route names should be in plural form for collections and singular form for individual resources.
+#
+#    Example:
+#    ```ruby
+#    resources :users
+#    get '/dashboard', to: 'dashboard#index', as: 'dashboard'
+#    ```
+#
+# 5. **Variables and Methods:**
+#    - Variable names and method names should use snake_case.
+#    - Use descriptive names that convey the purpose or functionality of the variable or method.
+#
+#    Example:
+#    ```ruby
+#    user_count = 10
+#
+#    def calculate_average(numbers)
+#      # method implementation
+#    end
+#    ```
+#
+# 6. **Constants:**
+#    - Constants should be written in uppercase with underscores separating words.
+#    - Constants should be declared at the top level of a class or module.
+#
+#    Example:
+#    ```ruby
+#    class MathOperations
+#      PI = 3.14159
+#    end
+#    ```
+#
+# Following these naming conventions helps improve code readability, makes it easier for other developers to understand and collaborate on the codebase, and aligns with the conventions established by the Ruby on Rails community.
+
+
+difference betwen gemfile and gemlock file
+
+# The Gemfile and Gemfile.lock are both files used in Ruby on Rails projects to manage and specify gem dependencies, but they serve different purposes:
+#
+# 1. **Gemfile:**
+#    - The Gemfile is a configuration file that specifies the gems (libraries or packages) that your Rails application depends on.
+#    - It defines the required gems, along with their versions and any additional options or dependencies.
+#    - You can think of the Gemfile as a manifest or a list of gems your application needs to run.
+#    - It is a plain text file typically located in the root directory of your Rails project.
+#
+#    Example Gemfile:
+#    ```ruby
+#    source 'https://rubygems.org'
+#
+#    gem 'rails', '~> 6.1.3'
+#    gem 'devise', '~> 4.8.0'
+#    gem 'pg', '~> 1.2.3'
+#    ```
+#
+# 2. **Gemfile.lock:**
+#    - The Gemfile.lock is a generated file that records the specific versions of the gems installed in your project's environment.
+#    - It ensures that everyone working on the project uses the same gem versions, providing consistency across different environments (development, staging, production).
+#    - When you run `bundle install` or `bundle update`, Bundler looks at the Gemfile.lock to determine the exact gem versions to install or update.
+#    - It is automatically updated whenever you install or update gems in your project.
+#
+#    Example Gemfile.lock:
+#    ```
+#    GEM
+#      remote: https://rubygems.org/
+#      specs:
+#        rails (6.1.3)
+#          actioncable (= 6.1.3)
+#          actionmailbox (= 6.1.3)
+#          actionmailer (= 6.1.3)
+#          ...
+#        devise (4.8.0)
+#          bcrypt (~> 3.1.7)
+#          orm_adapter (~> 0.1)
+#          railties (>= 4.1.0, < 6.2)
+#          ...
+#        pg (1.2.3)
+#        ...
+#
+#    PLATFORMS
+#      ruby
+#
+#    DEPENDENCIES
+#      rails (~> 6.1.3)
+#      devise (~> 4.8.0)
+#      pg (~> 1.2.3)
+#    ```
+#
+# In summary, the Gemfile specifies the gems and their versions required for your application, while the Gemfile.lock keeps track of the specific versions that are currently installed in your project. The Gemfile.lock ensures consistent gem versions across different environments and ensures that everyone working on the project uses the same set of gems. It is important to commit both the Gemfile and Gemfile.lock to version control to maintain a consistent and reproducible application environment.
+
+
+User
+differnce between includes and refrences
+#
+# In Ruby on Rails, there is a difference between the `includes` and `references` methods when working with associations:
+#
+# 1. **includes:**
+#    - The `includes` method is used to eager load associated records in Rails queries.
+#    - It specifies that the associated records should be loaded along with the main record in a single database query, rather than loading them lazily (one query per association).
+#    - Eager loading with `includes` helps to avoid the N+1 query problem and can significantly improve performance when accessing associated records.
+#    - The `includes` method is typically used in ActiveRecord queries, such as `Model.includes(:association)`.
+#
+#    Example:
+#    ```ruby
+#    @users = User.includes(:posts)
+#    ```
+#
+# 2. **references:**
+#    - The `references` method is used to include references to associations in a Rails query.
+#    - It specifies that the query should include a JOIN clause to fetch the associated records.
+#    - The `references` method is useful when you want to perform additional conditions or sorting based on the associated records.
+#    - It ensures that the referenced associations are included in the resulting query, even if they are not explicitly selected.
+#    - The `references` method is typically used in ActiveRecord queries when using conditions or sorting on associations.
+#
+#    Example:
+#    ```ruby
+#    @users = User.includes(:posts).references(:posts).where('posts.published = ?', true)
+#    ```
+#
+# In summary, `includes` is used to eager load associations to avoid additional queries, while `references` is used to include associations in queries for conditions or sorting purposes. Both methods are used in ActiveRecord queries to optimize and control the loading of associated records.
+
+what is differnce between find,findby and where
+
+# In Ruby on Rails, there are differences between the `find`, `find_by`, and `where` methods when querying the database:
+#
+# 1. **find:**
+#    - The `find` method is used to retrieve a record by its primary key.
+#    - It expects the primary key value as an argument and returns a single record matching that primary key.
+#    - If no record is found with the specified primary key, an `ActiveRecord::RecordNotFound` exception is raised.
+#    - The `find` method is commonly used when you know the exact primary key value of the record you want to retrieve.
+#
+#    Example:
+#    ```ruby
+#    @user = User.find(1)
+#    ```
+#
+# 2. **find_by:**
+#    - The `find_by` method is used to retrieve the first record that matches the specified conditions.
+#    - It expects a hash of conditions as an argument and returns the first record that satisfies those conditions.
+#    - If no record is found, it returns `nil`.
+#    - The `find_by` method is commonly used when you want to find a record based on specific conditions, such as finding a user by their email or username.
+#
+#    Example:
+#    ```ruby
+#    @user = User.find_by(email: 'example@example.com')
+#    ```
+#
+# 3. **where:**
+#    - The `where` method is used to retrieve records that match the specified conditions.
+#    - It expects a hash of conditions as an argument and returns an `ActiveRecord::Relation` object representing the matching records.
+#    - The `where` method allows you to chain additional methods to perform further filtering, sorting, or other operations on the resulting records.
+#    - It does not raise an exception or return `nil` if no records are found; instead, an empty `ActiveRecord::Relation` object is returned.
+#    - The `where` method is commonly used when you want to query for multiple records based on specific conditions.
+#
+#    Example:
+#    ```ruby
+#    @users = User.where(active: true)
+#    ```
+#
+# In summary, `find` is used to retrieve a single record by its primary key, `find_by` is used to retrieve the first record matching specific conditions, and `where` is used to retrieve multiple records based on specific conditions. The choice of method depends on whether you need to retrieve a single record, find the first matching record, or query for multiple records.
+
+
+what is the difference between , count length , size
+
+# In Ruby, there are differences between the methods `count`, `length`, and `size` when working with collections:
+#
+# 1. **count:**
+#    - The `count` method is used to return the number of elements in a collection that satisfy a given condition.
+#    - It can accept an optional argument to specify the condition for counting elements.
+#    - When called without any argument, it returns the total number of elements in the collection.
+#    - The `count` method can be used with arrays, hashes, and other enumerable objects.
+#
+#    Example:
+#    ```ruby
+#    numbers = [1, 2, 3, 4, 5]
+#    numbers.count   # returns 5
+#
+#    even_count = numbers.count { |num| num.even? }
+#    puts even_count   # prints 2
+#    ```
+#
+# 2. **length:**
+#    - The `length` method is used to return the number of elements in a collection.
+#    - It returns the total count of elements in the collection.
+#    - The `length` method is commonly used with arrays, strings, and other enumerable objects.
+#    - It does not accept any arguments.
+#
+#    Example:
+#    ```ruby
+#    numbers = [1, 2, 3, 4, 5]
+#    numbers.length   # returns 5
+#
+#    message = "Hello, World!"
+#    puts message.length   # prints 13
+#    ```
+#
+# 3. **size:**
+#    - The `size` method is similar to `length` and also returns the number of elements in a collection.
+#    - It can be used interchangeably with `length` in most cases.
+#    - The `size` method is commonly used with arrays, strings, and other enumerable objects.
+#    - It does not accept any arguments.
+#
+#    Example:
+#    ```ruby
+#    numbers = [1, 2, 3, 4, 5]
+#    numbers.size   # returns 5
+#
+#    message = "Hello, World!"
+#    puts message.size   # prints 13
+#    ```
+#
+# In summary, `count` is used to calculate the count of elements based on a condition, `length` is used to get the total count of elements, and `size` is also used to get the total count of elements and can be used interchangeably with `length`. The choice of method depends on whether you need to count elements based on a condition or simply retrieve the total count of elements in a collection.
+
+what is the difference between select, map , collect and each
+
+# In Ruby, there are differences between the `select`, `map` (or `collect`), and `each` methods when working with collections:
+#
+# 1. **select:**
+#    - The `select` method is used to filter elements from a collection based on a condition and return a new collection containing only the elements that satisfy the condition.
+#    - It evaluates the given condition for each element in the collection and includes only the elements for which the condition evaluates to `true`.
+#    - The `select` method returns an array (or an enumerable object) containing the selected elements.
+#    - It is commonly used when you want to extract specific elements from a collection based on certain criteria.
+#
+#    Example:
+#    ```ruby
+#    numbers = [1, 2, 3, 4, 5]
+#    even_numbers = numbers.select { |num| num.even? }
+#    puts even_numbers   # prints [2, 4]
+#    ```
+#
+# 2. **map (or collect):**
+#    - The `map` (or `collect`) method is used to transform elements of a collection by applying a block of code to each element and returning a new collection with the transformed elements.
+#    - It iterates over each element in the collection, applies the given block of code to each element, and collects the results into a new array (or an enumerable object).
+#    - The `map` method returns an array (or an enumerable object) containing the transformed elements.
+#    - It is commonly used when you want to transform each element in a collection based on a specific operation.
+#
+#    Example:
+#    ```ruby
+#    numbers = [1, 2, 3, 4, 5]
+#    doubled_numbers = numbers.map { |num| num * 2 }
+#    puts doubled_numbers   # prints [2, 4, 6, 8, 10]
+#    ```
+#
+# 3. **each:**
+#    - The `each` method is used to iterate over each element in a collection and perform a specific action for each element.
+#    - It does not transform or filter the elements; instead, it allows you to perform an operation on each element in the collection.
+#    - The `each` method typically returns the original collection and is commonly used for looping and performing actions on each element.
+#
+#    Example:
+#    ```ruby
+#    numbers = [1, 2, 3, 4, 5]
+#    numbers.each { |num| puts num }
+#    # prints:
+#    # 1
+#    # 2
+#    # 3
+#    # 4
+#    # 5
+#    ```
+#
+# In summary, `select` is used to filter elements based on a condition, `map` (or `collect`) is used to transform elements, and `each` is used to iterate over elements and perform an action for each element. The choice of method depends on whether you want to filter, transform, or simply iterate over the elements of a collection.
+
+
+what is join table and naming convention for join table
+
+# In database design, a join table (also known as a junction table, bridge table, or associative table) is a table that is used to establish a many-to-many relationship between two other tables. It contains foreign keys that reference the primary keys of the two tables involved in the relationship. The join table serves as an intermediary to link records from both tables.
+#
+# For example, consider a scenario where you have two tables: `users` and `groups`. A user can belong to multiple groups, and a group can have multiple users. To represent this many-to-many relationship, you would create a join table, typically named `groups_users` (using the pluralized names of the two tables in alphabetical order).
+#
+# The naming convention for a join table follows the format of concatenating the names of the two tables involved in alphabetical order, separated by an underscore. This convention helps maintain consistency and clarity when working with many-to-many relationships.
+#
+# Here's an example of a migration for creating a join table in Ruby on Rails:
+#
+# ```ruby
+# class CreateGroupsUsers < ActiveRecord::Migration[6.0]
+#   def change
+#     create_table :groups_users, id: false do |t|
+#       t.belongs_to :group
+#       t.belongs_to :user
+#     end
+#
+#     add_index :groups_users, [:group_id, :user_id], unique: true
+#   end
+# end
+# ```
+#
+# In this migration, `:groups_users` is the name of the join table, and it references the `groups` table and the `users` table using the `belongs_to` association. The `id: false` option indicates that the join table does not need its own primary key since it relies on the composite key of the two foreign keys.
+#
+# Using this join table, you can establish the many-to-many relationship between `users` and `groups` by adding appropriate associations in the respective models:
+#
+# ```ruby
+# class User < ApplicationRecord
+#   has_and_belongs_to_many :groups
+# end
+#
+# class Group < ApplicationRecord
+#   has_and_belongs_to_many :users
+# end
+# ```
+#
+# With the join table and the associations in place, you can now easily retrieve users belonging to a group and groups associated with a user using the `users` and `groups` associations defined in the models.
+#
+# By following the naming convention and using a join table, you can effectively represent and work with many-to-many relationships in a relational database.
+
+
+how to retive value from polymorphic association
+
+# To retrieve values from a polymorphic association in Ruby on Rails, you can use the dynamic methods generated by the association. Here's an example to illustrate the process:
+#
+# Suppose you have two models, `Comment` and `Image`, which are associated with a polymorphic model called `Attachment`. The `Attachment` model can be associated with various other models, such as `Post`, `Article`, or `Product`.
+#
+# 1. Set up the associations in the models:
+# ```ruby
+# class Comment < ApplicationRecord
+#   belongs_to :attachment, polymorphic: true
+# end
+#
+# class Image < ApplicationRecord
+#   belongs_to :attachment, polymorphic: true
+# end
+#
+# class Attachment < ApplicationRecord
+#   has_many :comments, as: :attachment
+#   has_many :images, as: :attachment
+# end
+# ```
+#
+# 2. Create some records in the database:
+# ```ruby
+# post = Post.create(title: 'My First Post')
+# comment = Comment.create(content: 'Great post!')
+# image = Image.create(url: 'https://example.com/image.jpg')
+#
+# attachment = Attachment.create(attachable: post)
+# attachment.comments << comment
+#
+# attachment = Attachment.create(attachable: image)
+# ```
+#
+# 3. Retrieve values from the polymorphic association:
+# ```ruby
+# attachment = Attachment.first
+#
+# # Retrieve associated comments
+# comments = attachment.comments
+#
+# # Retrieve associated images
+# images = attachment.images
+# ```
+#
+# In the example above, `attachment.comments` retrieves all the comments associated with the given `Attachment` record. Similarly, `attachment.images` retrieves all the images associated with the `Attachment`.
+#
+# By using the polymorphic association, you can easily retrieve the associated records regardless of the specific type of the associated model.
+#
+# Note: The actual method names for associations will depend on the naming conventions used in your application. For example, if you have used a different name for the association between `Attachment` and `Comment`, you would use that name instead of `comments` in the above example.
+#
+# Remember to adjust the code according to your specific models and associations.
+
+
+what is n+1 quey, how to resolve this in rails
+
+# The N+1 query problem is a common performance issue that occurs when fetching associations in a loop, resulting in multiple database queries instead of a single optimized query. This can lead to significant performance degradation, especially when dealing with large datasets.
+#
+# Let's understand the N+1 query problem with an example:
+#
+# Suppose you have two models, `Post` and `Comment`, with a one-to-many association where a post has many comments. Now, imagine you want to display the title of each post along with the total count of comments for that post.
+#
+# A naive approach to achieve this might involve iterating over each post and accessing its comments. Here's an example:
+#
+# ```ruby
+# # Controller
+# def index
+#   @posts = Post.all
+# end
+#
+# # View
+# <% @posts.each do |post| %>
+#   <h3><%= post.title %></h3>
+#   <p>Comments count: <%= post.comments.count %></p>
+# <% end %>
+# ```
+#
+# In this scenario, for each post, the `post.comments.count` line triggers an additional database query to fetch the associated comments and count them. This leads to N+1 queries, where N is the number of posts.
+#
+# To resolve the N+1 query problem, you can use eager loading in Rails. Eager loading allows you to fetch the required data in a more efficient way, reducing the number of queries executed.
+#
+# Here's how you can modify the code to use eager loading with the `includes` method:
+#
+# ```ruby
+# # Controller
+# def index
+#   @posts = Post.includes(:comments)
+# end
+#
+# # View
+# <% @posts.each do |post| %>
+#   <h3><%= post.title %></h3>
+#   <p>Comments count: <%= post.comments.count %></p>
+# <% end %>
+# ```
+#
+# By using `includes(:comments)`, you instruct Rails to fetch the associated comments for all posts in a single query. This avoids the N+1 query problem and improves performance.
+#
+# Eager loading can be applied to any association in your models. It preloads the associated records in advance, allowing you to access them without triggering additional queries.
+#
+# By addressing the N+1 query problem through eager loading, you can significantly enhance the performance of your Rails application, especially when dealing with complex associations or large datasets.
+
+
+find the max salary from the employee table
+# To find the maximum salary from the `employees` table in Ruby on Rails, you can use the `maximum` method provided by ActiveRecord. Assuming you have a model called `Employee` representing the `employees` table, here's how you can retrieve the maximum salary:
+#
+# ```ruby
+# max_salary = Employee.maximum(:salary)
+# ```
+#
+# This code will execute a SQL query that selects the maximum value of the `salary` column from the `employees` table and returns it as a result.
+#
+# If you want to find the employee record with the maximum salary instead of just the value, you can use the `order` and `first` methods to retrieve the corresponding employee:
+#
+# ```ruby
+# employee_with_max_salary = Employee.order(salary: :desc).first
+# ```
+#
+# This code will order the employee records by salary in descending order and select the first record, which will have the maximum salary.
+#
+# Note that the exact code may vary depending on your specific model and table names. Adjust the code accordingly based on your application's naming conventions and database schema.
+
+SQL:
+# To find the maximum salary from the `employees` table in SQL, you can use the `MAX` function along with the appropriate column name. Assuming you have a table called `employees` with a column named `salary`, here's an example SQL query to retrieve the maximum salary:
+#
+# ```sql
+# SELECT MAX(salary) AS max_salary FROM employees;
+# ```
+#
+# This query selects the maximum value of the `salary` column from the `employees` table and aliases it as `max_salary` in the result.
+#
+# If you want to retrieve the entire record of the employee(s) with the maximum salary, you can use a subquery or a JOIN operation. Here's an example using a subquery:
+#
+# ```sql
+# SELECT * FROM employees WHERE salary = (SELECT MAX(salary) FROM employees);
+# ```
+#
+# This query selects all the columns from the `employees` table for the employee(s) whose salary matches the maximum salary obtained from the subquery.
+#
+# Keep in mind that the exact SQL syntax and table/column names may vary based on your specific database schema. Adjust the query accordingly to match your table structure.
+
+
+class method and module method
+
+#   In Ruby, class methods and module methods are both ways to define methods that can be called directly on a class or module itself, without the need for an instance of the class or module.
+#
+# A class method is a method defined within a class and can be called directly on the class itself.
+# It is denoted by the use of the `self` keyword or the class name followed by a dot (`.`).
+# Class methods are useful for defining behavior that is specific to the class itself, rather than an individual instance of the class.
+#
+# Here's an example of defining and using a class method:
+#
+# ```ruby
+# class MyClass
+#   def self.my_class_method
+#     puts "This is a class method."
+#   end
+# end
+#
+# MyClass.my_class_method
+# # Output: This is a class method.
+# ```
+#
+# In this example, `my_class_method` is defined as a class method using the `self` keyword. It can be called directly on the `MyClass` class without creating an instance of it.
+#
+# On the other hand, a module method is a method defined within a module and can be called directly on the module itself. It is similar to a class method, but it can be shared and included in multiple classes or modules.
+# Module methods are useful for defining behavior that can be reused across different classes or modules.
+#
+# Here's an example of defining and using a module method:
+#
+# ```ruby
+# module MyModule
+#   def self.my_module_method
+#     puts "This is a module method."
+#   end
+# end
+#
+# MyModule.my_module_method
+# # Output: This is a module method.
+# ```
+#
+# In this example, `my_module_method` is defined as a module method within the `MyModule` module. It can be called directly on the `MyModule` module without including it in any specific class.
+#
+# Both class methods and module methods allow you to define behavior that can be accessed without the need for creating an instance of a class or module.
+ # However, class methods are specific to a particular class, while module methods can be shared and included in multiple classes or modules.
+
+
+what is instance method
+
+# In Ruby, an instance method is a method defined within a class that operates on an instance of that class. It can access and modify the instance variables and state of the object it is called on.
+#
+# Instance methods are defined without the use of the `self` keyword and can be called on instances of the class. When an instance method is invoked, it operates within the context of the specific instance and can access the instance's attributes and behaviors.
+#
+# Here's an example of defining and using an instance method:
+#
+# ```ruby
+# class MyClass
+#   def initialize(name)
+#     @name = name
+#   end
+#
+#   def greet
+#     puts "Hello, #{@name}!"
+#   end
+# end
+#
+# my_object = MyClass.new("John")
+# my_object.greet
+# # Output: Hello, John!
+# ```
+#
+# In this example, the `greet` method is defined as an instance method within the `MyClass` class. It takes no arguments and prints a greeting message using the instance variable `@name`. The `greet` method is then called on an instance of the class (`my_object`), which outputs the greeting message with the provided name.
+#
+# Instance methods are associated with specific instances of a class and allow you to define behavior and actions that can be performed on individual objects. Each instance of the class has its own set of instance methods that can be called to manipulate its state or perform specific operations.
+
+
+lazy loading and egar loading
+
+# Lazy loading and eager loading are two different strategies for loading associated data in a relational database.
+# They are commonly used in the context of Object-Relational Mapping (ORM) frameworks like Ruby on Rails.
+#
+# Lazy loading, also known as on-demand loading, is a technique where associated data is loaded only when it is explicitly requested.
+ # When a query is executed to fetch a record from the database, the associated data is not loaded by default.
+ # Instead, the associated data is loaded from the database only when a method or attribute related to the association is accessed.
+#
+# Here's an example to illustrate lazy loading in Ruby on Rails:
+#
+# ```ruby
+# class Author < ApplicationRecord
+#   has_many :books
+# end
+#
+# class Book < ApplicationRecord
+#   belongs_to :author
+# end
+#
+# # Lazy loading example
+# author = Author.first
+# author.books # The associated books are not loaded yet
+#
+# # Only when the books association is accessed, the associated books are loaded
+# author.books.each do |book|
+#   puts book.title
+# end
+# ```
+#
+# In this example, when the `Author.first` method is called, it fetches the author record from the database but does not load the associated books. The associated books are loaded from the database only when the `author.books` method is called.
+#
+# On the other hand, eager loading is a technique where the associated data is loaded along with the primary data in a single database query.
+# It aims to minimize the number of database queries by fetching the required data in advance.
+# Eager loading is particularly useful when you know that you will need the associated data for multiple records.
+#
+# Here's an example to illustrate eager loading in Ruby on Rails:
+#
+# ```ruby
+# # Eager loading example
+# authors = Author.includes(:books).limit(10)
+# authors.each do |author|
+#   author.books.each do |book|
+#     puts book.title
+#   end
+# end
+# ```
+#
+# In this example, the `includes` method is used to perform eager loading.
+# It fetches the authors along with their associated books in a single query.
+# This way, when the `author.books` method is called inside the loop, it doesn't trigger additional database queries since the associated books are already loaded.
+#
+# Lazy loading is the default behavior in many ORM frameworks, including Ruby on Rails, as it helps to reduce unnecessary database queries and improve performance. However, in scenarios where you know that you will need the associated data for multiple records, eager loading can be more efficient as it minimizes the number of queries and reduces the overall execution time.
+
+
+
+routes interview question with answer
+
+# Certainly! Here's an example of a routes-related interview question with an answer in Ruby:
+#
+# Question: "How would you define routes in a Ruby web application using a framework like Ruby on Rails?"
+#
+# Answer: "In a Ruby web application using Ruby on Rails, you can define routes using the routes.rb file located in the config directory. Here's an example of how you would handle routing in a Ruby on Rails application:
+#
+# 1. Open the routes.rb file: Locate the routes.rb file in the config directory of your Ruby on Rails application and open it in a text editor or an integrated development environment (IDE).
+#
+# 2. Define routes using the routing DSL: The routes.rb file uses a domain-specific language (DSL) to define routes. You can use this DSL to specify the HTTP method, URL pattern, and controller action associated with each route.
+#
+#    For example, to define a route that maps the root URL ("/") to a specific controller and action, you can use the following syntax:
+#    ```ruby
+#    root 'controller#action'
+#    ```
+#
+#    You can also define routes for different HTTP methods, such as GET, POST, PUT, or DELETE. For instance, to define a route for a GET request to "/products" that maps to the index action of a ProductsController, you can use the following syntax:
+#    ```ruby
+#    get '/products', to: 'products#index'
+#    ```
+#
+#    Additionally, you can use route parameters to capture dynamic segments of the URL. For example, to define a route that captures a product ID and maps to the show action of a ProductsController, you can use the following syntax:
+#    ```ruby
+#    get '/products/:id', to: 'products#show'
+#    ```
+#
+# 3. Define nested routes: Ruby on Rails allows you to define nested routes to represent hierarchical relationships between resources. This is useful when you have resources that are associated with each other. To define a nested route, you can use the `resources` method within the DSL. For example, if you have a Blog model associated with Comment models, you can define the routes like this:
+#    ```ruby
+#    resources :blogs do
+#      resources :comments
+#    end
+#    ```
+#
+# 4. Test and verify routes: After defining the routes, you can run your Ruby on Rails application and test the routes using the appropriate HTTP methods and URLs. You can also use the `rake routes` command to see a list of all defined routes and their corresponding mappings.
+#
+# By following these steps, you can effectively define routes in a Ruby web application using Ruby on Rails, allowing for proper mapping of URLs to controller actions and enabling the handling of different HTTP requests."
+
+
+member and collection Routes
+# In Ruby on Rails, member and collection routes are two types of routes used to define custom actions in the context of a specific resource within a controller.
+#
+# 1. Member Routes:
+#    - Member routes are used when you want to define a custom action that operates on a specific member or instance of a resource.
+#    - These routes are typically associated with a specific record identified by its unique identifier, such as an ID parameter.
+#    - Member routes are declared using the `member` method within the routing DSL.
+#    - An example of a member route is as follows:
+#      ```ruby
+#      resources :articles do
+#        member do
+#          get 'preview'
+#        end
+#      end
+#      ```
+#      This route would map the URL `/articles/:id/preview` to the `preview` action of the `ArticlesController`, allowing you to perform a custom action on a specific article.
+#
+# 2. Collection Routes:
+#    - Collection routes, on the other hand, are used when you want to define a custom action that operates on the entire collection of a resource, rather than a specific member.
+#    - These routes are not associated with a specific record and typically do not require an ID parameter.
+#    - Collection routes are declared using the `collection` method within the routing DSL.
+#    - An example of a collection route is as follows:
+#      ```ruby
+#      resources :articles do
+#        collection do
+#          get 'search'
+#        end
+#      end
+#      ```
+#      This route would map the URL `/articles/search` to the `search` action of the `ArticlesController`, allowing you to perform a custom action that applies to the entire collection of articles.
+#
+# By using member and collection routes, you can define custom actions that go beyond the default CRUD actions provided by Ruby on Rails for resources. These routes allow you to add additional functionality to your application's routes, providing flexibility in handling specific instances or the entire collection of a resource.
+
+
+what is the difference include and preloads
+
+# In Ruby on Rails, the terms "preload" and "include" have specific meanings related to database querying and optimizing performance.
+#
+# 1. Preload:
+#    In Rails, "preload" is a method that allows you to load associations and their associated records in a separate query, known as a preloading query. It helps to minimize the number of database queries when retrieving data associated with a model.
+#
+#    When you use `preload` on an association, Rails will load the associated records in a separate query, which can improve performance by reducing the number of database trips. However, it does not eager-load the records like the `includes` method (explained below).
+#
+#    Preloading is suitable when you need the associated records for further processing but don't necessarily need them immediately. It's commonly used to avoid the N+1 query problem, where you would otherwise generate additional queries for each associated record.
+#
+# 2. Include (includes):
+#    In Rails, "include" (or `includes`) is used to eager-load associations along with the main query. It allows you to fetch the associated records in a single query, reducing the need for subsequent queries.
+#
+#    When you use `includes` on an association, Rails generates a join query that fetches the associated records along with the main query result. This technique is called eager loading because it fetches the records upfront, avoiding the need for additional queries later.
+#
+#    Eager loading is useful when you know you'll need the associated records and want to avoid the performance impact of generating multiple queries. By using `includes`, you can fetch the necessary data in a more efficient manner.
+#
+# Here's an example to illustrate the difference between `preload` and `includes` in Rails:
+#
+# ```ruby
+# # Preloading example
+# @users = User.preload(:posts) # Preload associated posts
+# @users.each do |user|
+#   user.posts.each do |post|
+#     puts post.title
+#   end
+# end
+#
+# # Includes example
+# @users = User.includes(:posts) # Eager load associated posts
+# @users.each do |user|
+#   user.posts.each do |post|
+#     puts post.title
+#   end
+# end
+# ```
+#
+# In the above examples, `preload` and `includes` are used to load the associated `posts` records for each `User`. The key difference is that `preload` generates separate queries for each user's posts, while `includes` generates a join query to fetch all the posts in a single query.
+#
+# By using `includes`, you minimize the number of queries and improve the performance of fetching associated records.
+#
+# To summarize, in Ruby on Rails, "preload" is used to load associations in separate queries, while "include" (or `includes`) is used to eager-load associations along with the main query, reducing the need for subsequent queries.
+
+Active Record
+# is the Object-Relational Mapping (ORM) component of the Ruby on Rails framework. It provides an interface to interact with the database tables and perform CRUD (Create, Read, Update, Delete) operations using Ruby code, without writing SQL queries explicitly. Active Record follows the ActiveRecord design pattern and establishes associations between database tables using object-oriented programming techniques.
+
+# Here are some key features and concepts of Active Record in Rails:
+#
+# 1. Models: In Rails, a model is a Ruby class that represents a database table. Each instance of the model represents a row in the table, and the attributes of the model correspond to the columns in the table. Models inherit from the `ActiveRecord::Base` class, which provides all the functionalities for database interaction.
+#
+# 2. Database Connections: Active Record handles the database connection and configuration automatically. You specify the database details in the `config/database.yml` file, and Rails establishes the connection based on the environment (development, test, production) specified in the `config/environments` folder.
+#
+# 3. CRUD Operations: Active Record provides methods to perform CRUD operations on the database tables. For example, to create a new record, you can use the `create` method, and to retrieve records, you can use the `find` or `where` methods. Updating and deleting records can be done using the `update` and `destroy` methods, respectively.
+#
+# 4. Associations: Active Record allows you to define associations between models. These associations represent relationships between database tables, such as one-to-one, one-to-many, and many-to-many. Some of the association methods provided by Active Record include `has_many`, `belongs_to`, and `has_and_belongs_to_many`.
+#
+# 5. Validations: You can specify validations in Active Record models to ensure the data being saved to the database meets certain criteria. Validations help in maintaining data integrity and consistency. Common validations include `presence`, `uniqueness`, `length`, and `numericality`.
+#
+# 6. Callbacks: Active Record provides callbacks that allow you to perform certain actions at specific points in the lifecycle of a model, such as before saving, after saving, before validation, etc. Callbacks enable you to add custom logic or manipulate data before or after certain operations.
+#
+# 7. Migrations: Active Record provides a migration system that allows you to create and modify database tables and their columns using Ruby code. Migrations provide a version control system for your database schema and make it easy to evolve the database structure over time.
+#
+# Active Record is a powerful component of Rails that simplifies database interactions and provides a convenient way to work with data using Ruby code. It abstracts away the complexities of SQL and allows you to focus on the application's business logic.
+
+
+
+Jwt:
+rails new jwt_app --api
+cd jwt_app
+
+gem 'jwt'
+gem 'bcrypt', '~> 3.1.7'
+
+bundle install
+
+resources :users, param: :_username
+post '/auth/login', to: 'authentication#login'
+get '/*a', to: 'application#not_found'

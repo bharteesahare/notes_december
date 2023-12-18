@@ -1,0 +1,36 @@
+Ruby on Rails Developer with 4 years of experience
+
+Experienced Ruby on Rails Engineer proficient in building robust, scalable, and high-performance web applications. Adept at full-stack development, database design, and agile methodologies. Proven track record in delivering quality software solutions on time. Passionate about staying up-to-date with emerging technologies and continuously improving coding skills.
+
+Key Skills:
+
+Ruby on Rails Development
+Full-Stack Web Development
+RESTful API Design and Implementation
+Frontend Technologies: HTML, CSS, JavaScript
+Database Management: PostgreSQL, MySQL
+Test-Driven Development (TDD) and Unit Testing
+Version Control with Git
+Agile/Scrum Methodologies
+Problem-Solving and Debugging Skills
+Strong Communication and Collaboration
+
+
+
+https://github.com/bharteesahare
+https://www.linkedin.com/in/bhartee-sahare-4b744b139
+
+If I swipe left on a Job Applicant's profile, the same profile can be shown to me again after 2 days.
+user.rb
+
+add this field
+last_swiped_left_at :datetime
+
+create one method for the above.
+# Check if the user can swipe left again on this profile after 2 days
+
+this method used in the when we pass the params direction =  left
+so we need to show the profile same as.
+
+
+<%= d.audio_asset_url.present? ? "<audio controls> <source src='#{d.audio_asset_url}' type='audio/ogg'> <source src='#{d.audio_asset_url}' type='audio/mpeg'>  Your browser does not support the audio element. </audio>".html_safe : "NA"%>

@@ -1,0 +1,73 @@
+Remove the porter.
+Table name
+MasterShipment=>  Remove.
+Record: [#<MasterShipment id: 1, service_partner_name: "Porter", status_id: nil, partner_shipment_status: "order_accepted", hyperspace_shipment_status: "order confirmed", forward_flow: "order confirmed", reverse_flow: "order confirmed", created_at: "2023-01-27 07:57:04.274040000 +0000", updated_at: "2023-01-27 07:57:04.274040000 +0000">, #<MasterShipment id: 2, service_partner_name: "Porter", status_id: nil, partner_shipment_status: "order_start_trip", hyperspace_shipment_status: "out for delivery", forward_flow: "out for delivery", reverse_flow: "out for delivery", created_at: "2023-01-27 07:57:04.274040000 +0000", updated_at: "2023-01-27 07:57:04.274040000 +0000">, #<MasterShipment id: 3, service_partner_name: "Porter", status_id: nil, partner_shipment_status: "order_end_job", hyperspace_shipment_status: "Delivered", forward_flow: "Delivered", reverse_flow: "Delivered", created_at: "2023-01-27 07:57:04.274040000 +0000", updated_at: "2023-01-27 07:57:04.274040000 +0000">, #<MasterShipment id: 4, service_partner_name: "Porter", status_id: nil, partner_shipment_status: "order_cancel", hyperspace_shipment_status: "order cancelled", forward_flow: "order cancelled", reverse_flow: "order cancelled", created_at: "2023-01-27 07:57:04.274040000 +0000", updated_at: "2023-01-27 07:57:04.274040000 +0000">
+
+DeliveryPartner: Remove
+ #<DeliveryPartner id: 7, partner_name: "Porter", status: "Active", is_express: "Yes", is_surface: nil, created_at: "2022-12-21 10:08:02.415101000 +0000", updated_at: "2023-04-20 07:01:04.951038000 +0000", icon: "https://d3o1t8vp7n8wsg.cloudfront.net/assets/websi...">
+
+ ec_task_defination.json: remove this below code.
+{
+  "name": "PORTER_TEST_TOKEN",
+  "value": "32f2c347-f7e2-4b95-b0ae-83ef7809c141"
+},
+
+
+Controller: manual_orders_controller.rb
+
+method: select_assign_partner
+elsif service_partner == "PorterService"
+shipment_price =  partner.shipping_charges(pickup_address,deliver_address)
+if !shipment_price[:error]
+	all_vehicles_types = shipment_price[:data]["vehicles"]
+	all_vehicles_types.each do |vehicle|
+		if vehicle["type"] == "2 Wheeler"
+			order_assign_partner << {name: i[:name],logo: i[:logo] ,message: "Success",total_charges: vehicle["fare"]["minor_amount"].to_f/100,freight_charges: 0 ,cod_charges: vehicle["fare"]["minor_amount"].to_f/100, min_weight: vehicle["capacity"]["value"].to_s+"Kg" , pickup_performance: 0 , deliver_performance: 0 ,ndr_performance: 0 , rto_performance: 0, weight_cases: 0 ,overall_rating: 0 }
+		end
+	end
+end
+
+method: assign_partner
+if params[:partner_name] == "Porter"
+order.update(awb_number: order_creates_status[:data]["order_id"] , courier: "Porter")
+s = Shipment.new(user_id: @current_user.id , awb_number: order.awb_number ,order_id: params[:client_order_id] ,  amount: order.total_amount , delivery_partner_id: partner_find.id) 
+
+
+Controller: order_controller.rb
+
+method: order_assignment
+elsif courier_wala == "Porter" 
+	response = ("PorterService").constantize.create_order(current_order)
+	if !response[:error]
+		res = response[:data]
+		s = Shipment.create(user_id: @current_user.id, order_id: res["request_id"], awb_number: res["order_id"], amount: current_order["total_amount"] ,delivery_partner_id: partner.id, order_shipment_status: nil)
+		ShipmentLog.create(shipment_id: s.id ,  service_partner: partner.partner_name , shipment_status: "Order Created", status_value: "Order accepted by Us")
+		status_200("ok",response[:data])	
+	else
+		status_400("Cannot create order",response)
+	end	
+
+controller: shipment_controller.rb
+
+method: shipment_calculator
+			services = ["BorzoService","DunzoService","BluedartService","XpressBeesService","DelhiveryService" ,"PorterService"]
+elsif i == "PorterService"
+						shipment_price =  partner.shipping_charges(pickup_address,deliver_address)
+						if !shipment_price[:error]
+							all_vehicles_types = shipment_price[:data]["vehicles"]
+							all_vehicles_types.each do |vehicle|
+								if vehicle["type"] == "2 Wheeler"
+									data << {name: i ,message: "Success",freight_charges: nil ,cod_charges: vehicle["fare"]["minor_amount"]/100,total_charges: vehicle["fare"]["minor_amount"]/100,min_weight: vehicle["capacity"]["value"] , chargeable_weight: nil,logo: DeliveryPartner.find_by_partner_name("Porter").icon}
+								end
+							end
+						else
+							data << {name: i ,message: "#{shipment_price[:data]["message"]}",freight_charges: nil ,cod_charges: nil,total_charges: nil,min_weight: nil,chargeable_weight: nil}
+						end
+
+
+controller: webhook_controller.rb
+method: porter_webhook
+
+CourierService.rb
+		SERVICES = ["BorzoService","DelhiveryService","WholemarkService","BluedartService","PorterService","XpressBeesService"]
+remove
